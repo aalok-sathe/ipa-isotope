@@ -3,7 +3,7 @@
 
 // init Isotope
 var $grid = $('.grid').isotope({
-    itemSelector: '.element-item',
+    itemSelector: '.element-item', // TODO phoneme-item
     // layoutMode: 'fitRows',
 
     layoutMode: 'packery',
