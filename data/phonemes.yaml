@@ -1,4 +1,8 @@
-- name: temp
-  symbol: k
-  classes: 'transition metal'
-  category: 'transition'
+- name:     k
+  symbol:   k
+  sound:    'none'
+  classes:  'unvoiced velar plosive'
+  sonority: 1
+  manner:   'plosive'
+  place:    'velar'
+  voicing:  'unvoiced'
