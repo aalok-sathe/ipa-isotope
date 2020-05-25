@@ -6,6 +6,7 @@
   manner:   'plosive'
   place:    'velar'
   voicing:  'unvoiced'
+
 - name:     g
   symbol:   g
   sound:    'none'
