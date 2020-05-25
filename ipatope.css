@@ -126,6 +126,7 @@ body {
   font-size: 12px;
 }
 
+.element-item.plosive          { background: #F00; background: hsl(   0, 100%, 50%); }
 .element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
 .element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
 .element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
