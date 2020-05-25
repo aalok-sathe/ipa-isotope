@@ -6,6 +6,9 @@
     <h1>Isotope - filtering &amp; sorting</h1>
     <h2>Filter</h2>
     <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show all</button>
+        <button class="button" data-filter=".unvoiced">unvoiced</button>
+        <button class="button" data-filter=".velar">velar</button>
+        <button class="button" data-filter=".plosive">plosive</button>
         <button class="button" data-filter=".metal">metal</button>
         <button class="button" data-filter=".transition">transition</button>
         <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
@@ -19,16 +22,19 @@
     <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
         <button class="button" data-sort-by="name">name</button>
         <button class="button" data-sort-by="symbol">symbol</button>
-        <button class="button" data-sort-by="number">number</button>
-        <button class="button" data-sort-by="weight">weight</button>
         <button class="button" data-sort-by="category">category</button>
     </div>
 
     <div class="grid">
         
-        <div class="element-item transition metal " data-category="transition">
-    <h3 class="name">temp</h3>
+        <div class="element-item unvoiced velar plosive " data-category="{{ no such element: __main__.Phoneme object['category'] }}">
+    <h3 class="name">k</h3>
     <p class="symbol">k</p>
+</div>
+        
+        <div class="element-item voiced velar plosive " data-category="{{ no such element: __main__.Phoneme object['category'] }}">
+    <h3 class="name">g</h3>
+    <p class="symbol">g</p>
 </div>
         
         <div class="element-item post-transition metal " data-category="post-transition">
