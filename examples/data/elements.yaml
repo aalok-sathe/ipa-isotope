@@ -1,0 +1,6 @@
+- name: Mercury
+  symbol: Hg
+  number: 80
+  weight: 200.59
+  classes: 'transition metal'
+  category: 'transition'
