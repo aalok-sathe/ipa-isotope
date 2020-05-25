@@ -12,17 +12,19 @@ jinja_env = Environment(loader=FileSystemLoader('templates'),
                         undefined=DebugUndefined)
 template = jinja_env.get_template('phonemes.template.html')
 
+
 class Phoneme:
     def __init__(self, name='Element', symbol='', sound='', **kwargs):
         kwargs.update(dict(name=name, symbol=symbol, sound=sound))
         for key, value in kwargs.items():
             setattr(self, key, value)
 
-with (DATA/'phonemes.yaml').open('r') as fp:
+
+with (DATA / 'phonemes.yaml').open('r') as fp:
     phonemes = [Phoneme(**ph) for ph in yaml.load(fp, Loader=yaml.Loader)]
 
 data = dict(
-    phonemes = phonemes,
+    phonemes=phonemes,
 )
 
 with Path('index.html').open('w') as out:
