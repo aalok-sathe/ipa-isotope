@@ -26,12 +26,9 @@
   </div>
 
   <div class="grid">
-    
-        <div class="element-item transition metal " data-category="transition">
-    <h3 class="name">temp</h3>
-    <p class="symbol">k</p>
-</div>
-    
+    {% for phoneme in phonemes %}
+        {% include "phoneme.template.html" with context %}
+    {% endfor %}
     <div class="element-item post-transition metal " data-category="post-transition">
       <h3 class="name">Thallium</h3>
       <p class="symbol">Tl</p>
