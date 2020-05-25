@@ -14,8 +14,7 @@ template = jinja_env.get_template('phonemes.template.html')
 
 
 class Phoneme:
-    def __init__(self, name='Element', symbol='', sound='', **kwargs):
-        kwargs.update(dict(name=name, symbol=symbol, sound=sound))
+    def __init__(self, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
 
