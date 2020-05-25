@@ -3,51 +3,52 @@
 <html>
 
 <body>
-    <h1>Isotope - filtering &amp; sorting</h1>
-    <h2>Filter</h2>
-    <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show all</button>
-        <button class="button" data-filter=".unvoiced">unvoiced</button>
-        <button class="button" data-filter=".velar">velar</button>
-        <button class="button" data-filter=".plosive">plosive</button>
-        <button class="button" data-filter=".metal">metal</button>
-        <button class="button" data-filter=".transition">transition</button>
-        <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
-        <button class="button" data-filter=":not(.transition)">not transition</button>
-        <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
-        <button class="button" data-filter="numberGreaterThan50">number > 50</button>
-        <button class="button" data-filter="ium">name ends with &ndash;ium</button>
-    </div>
+  <h1>Isotope - filtering &amp; sorting</h1>
+  <h2>Filter</h2>
+  <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".unvoiced">unvoiced</button>
+    <button class="button" data-filter=".voiced">voiced</button>
+    <button class="button" data-filter=".velar">velar</button>
+    <button class="button" data-filter=".plosive">plosive</button>
+    <button class="button" data-filter=".metal">metal</button>
+    <button class="button" data-filter=".transition">transition</button>
+    <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+    <button class="button" data-filter=":not(.transition)">not transition</button>
+    <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+    <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+    <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+  </div>
 
-    <h2>Sort</h2>
-    <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
-        <button class="button" data-sort-by="name">name</button>
-        <button class="button" data-sort-by="symbol">symbol</button>
-        <button class="button" data-sort-by="category">category</button>
-    </div>
+  <h2>Sort</h2>
+  <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
+    <button class="button" data-sort-by="name">name</button>
+    <button class="button" data-sort-by="symbol">symbol</button>
+    <button class="button" data-sort-by="category">category</button>
+  </div>
 
-    <div class="grid">
-        {% for phoneme in phonemes %}
-        {% include "phoneme.template.html" with context %}
-        {% endfor %}
-        <div class="element-item post-transition metal " data-category="post-transition">
-            <h3 class="name">Thallium</h3>
-            <p class="symbol">Tl</p>
-            <p class="number">81</p>
-            <p class="weight">204.383</p>
-        </div>
-        <div class="element-item actinoid metal inner-transition " data-category="actinoid">
-            <h3 class="name">Uranium</h3>
-            <p class="symbol">U</p>
-            <p class="number">92</p>
-            <p class="weight">238.029</p>
-        </div>
-        <div class="element-item actinoid metal inner-transition " data-category="actinoid">
-            <h3 class="name">Plutonium</h3>
-            <p class="symbol">Pu</p>
-            <p class="number">94</p>
-            <p class="weight">(244)</p>
-        </div>
+  <div class="grid">
+    {% for phoneme in phonemes %}
+    {% include "phoneme.template.html" with context %}
+    {% endfor %}
+    <div class="element-item post-transition metal " data-category="post-transition">
+      <h3 class="name">Thallium</h3>
+      <p class="symbol">Tl</p>
+      <p class="number">81</p>
+      <p class="weight">204.383</p>
     </div>
+    <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+      <h3 class="name">Uranium</h3>
+      <p class="symbol">U</p>
+      <p class="number">92</p>
+      <p class="weight">238.029</p>
+    </div>
+    <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+      <h3 class="name">Plutonium</h3>
+      <p class="symbol">Pu</p>
+      <p class="number">94</p>
+      <p class="weight">(244)</p>
+    </div>
+  </div>
 
 
 </body>
