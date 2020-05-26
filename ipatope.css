@@ -186,6 +186,7 @@ body {
 .phoneme-item.trill           { background: #0F0; background: hsl( 108, 100%, 50%); }
 .phoneme-item.tap             { background: #0F8; background: hsl( 144, 100%, 50%); }
 .phoneme-item.approximant     { background: #0FF; background: hsl( 180, 100%, 50%); }
+.phoneme-item.vowel           { background: #08F; background: hsl( 216, 100%, 50%); }
 /* Todo: why is there a fricative in approximant and vice-versa? Because we apply approximant later and one of them shows fricative or approximant*/
 
 .phoneme-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
