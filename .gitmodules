@@ -1,0 +1,3 @@
+[submodule "phonemes"]
+	path = phonemes
+	url = https://github.com/notnami/phonemes.git
