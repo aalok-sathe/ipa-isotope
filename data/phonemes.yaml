@@ -1,26 +1,2001 @@
-- name:     k
-  symbol:   k
-  sound:    'none'
-  classes:  'unvoiced velar plosive'
-  sonority: 1
-  manner:   'plosive'
-  place:    'velar'
-  voicing:  'unvoiced'
-
-- name:     g
-  symbol:   g
-  sound:    'none'
-  classes:  'voiced velar plosive'
-  sonority: 1
-  manner:   'plosive'
-  place:    'velar'
-  voicing:  'voiced'
-
-- name:     f
-  symbol:   f
-  sound:    'none'
-  classes:  'unvoiced labiodental fricative'
-  sonority: 2
-  manner:   'fricative'
-  place:    'labiodental'
-  voicing:  'unvoiced'
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0070'
+  ant: 0
+  back: 0
+  classes: Voiceless bilabial plosive
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Lower-case P
+  nasal: false
+  number: 101
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: p
+  tense: 0
+  unicode: LATIN SMALL LETTER P
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0062'
+  ant: 0
+  back: 0
+  classes: Voiced bilabial plosive
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Lower-case B
+  nasal: false
+  number: 102
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: b
+  tense: 0
+  unicode: LATIN SMALL LETTER B
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0074'
+  ant: true
+  back: 0
+  classes: Voiceless dental or alveolar plosive
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case T
+  nasal: false
+  number: 103
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: t
+  tense: 0
+  unicode: LATIN SMALL LETTER T
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0064'
+  ant: true
+  back: 0
+  classes: Voiced dental or alveolar plosive
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case D
+  nasal: false
+  number: 104
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: d
+  tense: 0
+  unicode: LATIN SMALL LETTER D
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0063'
+  ant: false
+  back: 0
+  classes: Voiceless palatal plosive
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case C
+  nasal: false
+  number: 107
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: c
+  tense: 0
+  unicode: LATIN SMALL LETTER C
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 025F
+  ant: false
+  back: 0
+  classes: Voiced palatal plosive
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: 0
+  name: Barred dotless J
+  nasal: false
+  number: 108
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u025F"
+  tense: 0
+  unicode: LATIN SMALL LETTER DOTLESS J WITH STROKE
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 006B
+  ant: 0
+  back: true
+  classes: Voiceless velar plosive
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: false
+  name: Lower-case K
+  nasal: false
+  number: 109
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: k
+  tense: false
+  unicode: LATIN SMALL LETTER K
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0071'
+  ant: 0
+  back: true
+  classes: Voiceless uvular plosive
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Lower-case Q
+  nasal: false
+  number: 111
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: q
+  tense: false
+  unicode: LATIN SMALL LETTER Q
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0262'
+  ant: 0
+  back: true
+  classes: Voiced uvular plosive
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Small capital G
+  nasal: false
+  number: 112
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0262"
+  tense: false
+  unicode: LATIN LETTER SMALL CAPITAL G
+  voice: true
+- ATR: 0
+  CG: true
+  SG: false
+  USV: 0294
+  ant: 0
+  back: 0
+  classes: Glottal plosive
+  cons: false
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Glottal stop
+  nasal: false
+  number: 113
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0294"
+  tense: 0
+  unicode: LATIN LETTER GLOTTAL STOP
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 006D
+  ant: 0
+  back: 0
+  classes: Voiced bilabial nasal
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Lower-case M
+  nasal: true
+  number: 114
+  pharyngeal: false
+  round: false
+  son: true
+  strident: false
+  syl: false
+  symbol: m
+  tense: 0
+  unicode: LATIN SMALL LETTER M
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 006E
+  ant: true
+  back: 0
+  classes: Voiced dental or alveolar nasal
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case N
+  nasal: true
+  number: 116
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: n
+  tense: 0
+  unicode: LATIN SMALL LETTER N
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0273'
+  ant: false
+  back: false
+  classes: Voiced retroflex nasal
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Right-tail N
+  nasal: true
+  number: 117
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u0273"
+  tense: false
+  unicode: LATIN SMALL LETTER N WITH RETROFLEX HOOK
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0272'
+  ant: 0
+  back: false
+  classes: Voiced palatal nasal
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: false
+  name: Left-tail N (at left)
+  nasal: true
+  number: 118
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u0272"
+  tense: false
+  unicode: LATIN SMALL LETTER N WITH LEFT HOOK
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 014B
+  ant: 0
+  back: true
+  classes: Voiced velar nasal
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: false
+  name: Eng
+  nasal: true
+  number: 119
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u014B"
+  tense: false
+  unicode: LATIN SMALL LETTER ENG
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0274'
+  ant: 0
+  back: true
+  classes: Voiced uvular nasal
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Small capital N
+  nasal: true
+  number: 120
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u0274"
+  tense: false
+  unicode: LATIN LETTER SMALL CAPITAL N
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0072'
+  ant: true
+  back: 0
+  classes: Voiced dental or alveolar trill
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case R
+  nasal: false
+  number: 122
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: r
+  tense: 0
+  unicode: LATIN SMALL LETTER R
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0280
+  ant: 0
+  back: true
+  classes: Voiced uvular trill
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Small capital R
+  nasal: false
+  number: 123
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u0280"
+  tense: false
+  unicode: LATIN LETTER SMALL CAPITAL R
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 027E
+  ant: true
+  back: 0
+  classes: Voiced dental or alveolar tap
+  cons: true
+  cont: false
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Fish-hook R
+  nasal: false
+  number: 124
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u027E"
+  tense: 0
+  unicode: LATIN SMALL LETTER R WITH FISHHOOK
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0278
+  ant: 0
+  back: 0
+  classes: Voiceless bilabial fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Phi
+  nasal: false
+  number: 126
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0278"
+  tense: 0
+  unicode: LATIN SMALL LETTER PHI
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 03B2
+  ant: 0
+  back: 0
+  classes: Voiced bilabial fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Beta
+  nasal: false
+  number: 127
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u03B2"
+  tense: 0
+  unicode: GREEK SMALL LETTER BETA
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0066'
+  ant: 0
+  back: 0
+  classes: Voiceless labiodental fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Lower-case F
+  nasal: false
+  number: 128
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: true
+  syl: false
+  symbol: f
+  tense: 0
+  unicode: LATIN SMALL LETTER F
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0076'
+  ant: 0
+  back: 0
+  classes: Voiced labiodental fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Lower-case V
+  nasal: false
+  number: 129
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: true
+  syl: false
+  symbol: v
+  tense: 0
+  unicode: LATIN SMALL LETTER V
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 03B8
+  ant: true
+  back: 0
+  classes: Voiceless dental fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Theta
+  nasal: false
+  number: 130
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u03B8"
+  tense: 0
+  unicode: GREEK SMALL LETTER THETA
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 00F0
+  ant: true
+  back: 0
+  classes: Voiced dental fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Eth
+  nasal: false
+  number: 131
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\xF0"
+  tense: 0
+  unicode: LATIN SMALL LETTER ETH
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0073'
+  ant: true
+  back: 0
+  classes: Voiceless alveolar fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case S
+  nasal: false
+  number: 132
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: true
+  syl: false
+  symbol: s
+  tense: 0
+  unicode: LATIN SMALL LETTER S
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 007A
+  ant: true
+  back: 0
+  classes: Voiced alveolar fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case Z
+  nasal: false
+  number: 133
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: true
+  syl: false
+  symbol: z
+  tense: 0
+  unicode: LATIN SMALL LETTER Z
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0283
+  ant: false
+  back: 0
+  classes: Voiceless postalveolar fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Esh
+  nasal: false
+  number: 134
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: true
+  syl: false
+  symbol: "\u0283"
+  tense: 0
+  unicode: LATIN SMALL LETTER ESH
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0292
+  ant: false
+  back: 0
+  classes: Voiced postalveolar fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Ezh; Tailed Z
+  nasal: false
+  number: 135
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0292"
+  tense: 0
+  unicode: LATIN SMALL LETTER EZH
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 00E7
+  ant: false
+  back: 0
+  classes: Voiceless palatal fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: 0
+  name: C cedilla
+  nasal: false
+  number: 138
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\xE7"
+  tense: 0
+  unicode: LATIN SMALL LETTER C WITH CEDILLA
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 029D
+  ant: false
+  back: 0
+  classes: Voiced palatal fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: 0
+  name: Curly-tail J
+  nasal: false
+  number: 139
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u029D"
+  tense: 0
+  unicode: LATIN SMALL LETTER J WITH CROSSED-TAIL
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0078
+  ant: 0
+  back: true
+  classes: Voiceless velar fricative
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: false
+  name: Lower-case X
+  nasal: false
+  number: 140
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: x
+  tense: false
+  unicode: LATIN SMALL LETTER X
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0263'
+  ant: 0
+  back: true
+  classes: Voiced velar fricative
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: false
+  name: Gamma
+  nasal: false
+  number: 141
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0263"
+  tense: false
+  unicode: LATIN SMALL LETTER GAMMA
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 03C7
+  ant: 0
+  back: true
+  classes: Voiceless uvular fricative
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Chi
+  nasal: false
+  number: 142
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u03C7"
+  tense: false
+  unicode: GREEK SMALL LETTER CHI
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0281
+  ant: 0
+  back: true
+  classes: Voiced uvular fricative
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: false
+  lateral: false
+  low: false
+  name: Inverted small capital R
+  nasal: false
+  number: 143
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0281"
+  tense: false
+  unicode: LATIN LETTER SMALL CAPITAL INVERTED R
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: '0127'
+  ant: 0
+  back: 0
+  classes: Voiceless pharyngeal fricative
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Barred H
+  nasal: false
+  number: 144
+  pharyngeal: true
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0127"
+  tense: 0
+  unicode: LATIN SMALL LETTER H WITH STROKE
+  voice: false
+- ATR: false
+  CG: false
+  SG: false
+  USV: 0295
+  ant: 0
+  back: 0
+  classes: Voiced pharyngeal fricative or approximant
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Reversed glottal stop
+  nasal: false
+  number: 145
+  pharyngeal: true
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0295"
+  tense: 0
+  unicode: LATIN LETTER PHARYNGEAL VOICED FRICATIVE
+  voice: true
+- ATR: 0
+  CG: false
+  SG: true
+  USV: 0068
+  ant: 0
+  back: 0
+  classes: Voiceless glottal fricative
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Lower-case H
+  nasal: false
+  number: 146
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: h
+  tense: 0
+  unicode: LATIN SMALL LETTER H
+  voice: false
+- ATR: 0
+  CG: false
+  SG: true
+  USV: '0266'
+  ant: 0
+  back: 0
+  classes: Voiced glottal fricative
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: false
+  lateral: false
+  low: 0
+  name: Hooktop H
+  nasal: false
+  number: 147
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0266"
+  tense: 0
+  unicode: LATIN SMALL LETTER H WITH HOOK
+  voice: true
+- ATR: 0
+  CG: false
+  SG: true
+  USV: 026C
+  ant: true
+  back: 0
+  classes: Voiceless dental or alveolar lateral fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: true
+  low: 0
+  name: Belted L
+  nasal: false
+  number: 148
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u026C"
+  tense: 0
+  unicode: LATIN SMALL LETTER L WITH BELT
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 026E
+  ant: true
+  back: 0
+  classes: Voiced dental or alveolar lateral fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: true
+  low: 0
+  name: L-Ezh ligature
+  nasal: false
+  number: 149
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u026E"
+  tense: 0
+  unicode: LATIN SMALL LETTER LEZH
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 028B
+  ant: 0
+  back: 0
+  classes: Voiced labiodental approximant
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: 0
+  dorsal: false
+  high: 0
+  labial: true
+  lateral: false
+  low: 0
+  name: Cursive V
+  nasal: false
+  number: 150
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: true
+  syl: false
+  symbol: "\u028B"
+  tense: 0
+  unicode: LATIN SMALL LETTER V WITH HOOK
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 006A
+  ant: 0
+  back: false
+  classes: Voiced palatal approximant
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case J
+  nasal: false
+  number: 153
+  pharyngeal: false
+  round: false
+  son: true
+  strident: false
+  syl: false
+  symbol: j
+  tense: false
+  unicode: LATIN SMALL LETTER J
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0270'
+  ant: 0
+  back: true
+  classes: Voiced velar approximant
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Turned M, right Leg
+  nasal: false
+  number: 154
+  pharyngeal: false
+  round: false
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u0270"
+  tense: false
+  unicode: LATIN SMALL LETTER TURNED M WITH LONG LEG
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 006C
+  ant: true
+  back: 0
+  classes: Voiced dental or alveolar lateral approximant
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: false
+  dorsal: true
+  high: 0
+  labial: false
+  lateral: true
+  low: 0
+  name: Lower-case L
+  nasal: false
+  number: 155
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: l
+  tense: 0
+  unicode: LATIN SMALL LETTER L
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 028E
+  ant: 0
+  back: false
+  classes: Voiced palatal lateral approximant
+  cons: true
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: true
+  low: false
+  name: Turned Y
+  nasal: false
+  number: 157
+  pharyngeal: false
+  round: 0
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u028E"
+  tense: false
+  unicode: LATIN SMALL LETTER TURNED Y
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0077'
+  ant: 0
+  back: true
+  classes: Voiced labial-velar approximant
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case W
+  nasal: false
+  number: 170
+  pharyngeal: false
+  round: true
+  son: true
+  strident: false
+  syl: false
+  symbol: w
+  tense: false
+  unicode: LATIN SMALL LETTER W
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0265'
+  ant: 0
+  back: false
+  classes: Voiced labial-palatal approximant
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Turned H
+  nasal: false
+  number: 171
+  pharyngeal: false
+  round: true
+  son: true
+  strident: false
+  syl: false
+  symbol: "\u0265"
+  tense: false
+  unicode: LATIN SMALL LETTER TURNED H
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0255'
+  ant: false
+  back: 0
+  classes: Voiceless alveolo-palatal fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: 0
+  name: Curly-tail C
+  nasal: false
+  number: 182
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0255"
+  tense: 0
+  unicode: LATIN SMALL LETTER C WITH CURL
+  voice: false
+- ATR: 0
+  CG: false
+  SG: false
+  USV: 0291
+  ant: false
+  back: 0
+  classes: Voiced alveolo-palatal fricative
+  cons: true
+  cont: true
+  coronal: true
+  del_rel: false
+  dist: true
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: 0
+  name: Curly-tail Z
+  nasal: false
+  number: 183
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: "\u0291"
+  tense: 0
+  unicode: LATIN SMALL LETTER Z WITH CURL
+  voice: true
+- ATR: 0
+  CG: false
+  SG: false
+  USV: '0067'
+  ant: 0
+  back: true
+  classes: Voiced velar plosive
+  cons: true
+  cont: false
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: false
+  lateral: false
+  low: false
+  name: Looptail G
+  nasal: false
+  number: 210
+  pharyngeal: false
+  round: 0
+  son: false
+  strident: false
+  syl: false
+  symbol: g
+  tense: false
+  unicode: LATIN SMALL LETTER G
+  voice: true
+- ATR: true
+  CG: false
+  SG: false
+  USV: 0069
+  ant: 0
+  back: false
+  classes: Close front unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case I
+  nasal: false
+  number: 301
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: i
+  tense: true
+  unicode: LATIN SMALL LETTER I
+  voice: true
+- ATR: true
+  CG: false
+  SG: false
+  USV: '0065'
+  ant: 0
+  back: false
+  classes: Close-mid front unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case E
+  nasal: false
+  number: 302
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: e
+  tense: true
+  unicode: LATIN SMALL LETTER E
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 025B
+  ant: 0
+  back: false
+  classes: Open-mid front unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Epsilon
+  nasal: false
+  number: 303
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u025B"
+  tense: false
+  unicode: LATIN SMALL LETTER OPEN E
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: '0061'
+  ant: 0
+  back: false
+  classes: Open front unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: true
+  name: Lower-case A
+  nasal: false
+  number: 304
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: a
+  tense: false
+  unicode: LATIN SMALL LETTER A
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: '0254'
+  ant: 0
+  back: true
+  classes: Open-mid back rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Open O
+  nasal: false
+  number: 306
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u0254"
+  tense: false
+  unicode: LATIN SMALL LETTER OPEN O
+  voice: true
+- ATR: true
+  CG: false
+  SG: false
+  USV: 006F
+  ant: 0
+  back: true
+  classes: Close-mid back rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case O
+  nasal: false
+  number: 307
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: o
+  tense: true
+  unicode: LATIN SMALL LETTER O
+  voice: true
+- ATR: true
+  CG: false
+  SG: false
+  USV: '0075'
+  ant: 0
+  back: true
+  classes: Close back rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case U
+  nasal: false
+  number: 308
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: u
+  tense: true
+  unicode: LATIN SMALL LETTER U
+  voice: true
+- ATR: true
+  CG: false
+  SG: false
+  USV: 0079
+  ant: 0
+  back: false
+  classes: Close front rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case Y
+  nasal: false
+  number: 309
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: y
+  tense: true
+  unicode: LATIN SMALL LETTER Y
+  voice: true
+- ATR: true
+  CG: false
+  SG: false
+  USV: 00F8
+  ant: 0
+  back: false
+  classes: Close-mid front rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Slashed O
+  nasal: false
+  number: 310
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: "\xF8"
+  tense: true
+  unicode: LATIN SMALL LETTER O WITH STROKE
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: '0153'
+  ant: 0
+  back: false
+  classes: Open-mid front rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Lower-case O-E ligature
+  nasal: false
+  number: 311
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u0153"
+  tense: false
+  unicode: LATIN SMALL LIGATURE OE
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 028C
+  ant: 0
+  back: true
+  classes: Open-mid back unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Turned V
+  nasal: false
+  number: 314
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u028C"
+  tense: false
+  unicode: LATIN SMALL LETTER TURNED V
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 026F
+  ant: 0
+  back: true
+  classes: Close back unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Turned M
+  nasal: false
+  number: 316
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u026F"
+  tense: true
+  unicode: LATIN SMALL LETTER TURNED M
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 0268
+  ant: 0
+  back: true
+  classes: Close central unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Barred I
+  nasal: false
+  number: 317
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u0268"
+  tense: false
+  unicode: LATIN SMALL LETTER I WITH STROKE
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 026A
+  ant: 0
+  back: false
+  classes: Near-close near-front unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Small capital I
+  nasal: false
+  number: 319
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u026A"
+  tense: false
+  unicode: LATIN LETTER SMALL CAPITAL I
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 028F
+  ant: 0
+  back: false
+  classes: Near-close near-front rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Small capital Y
+  nasal: false
+  number: 320
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u028F"
+  tense: false
+  unicode: LATIN LETTER SMALL CAPITAL Y
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 028A
+  ant: 0
+  back: true
+  classes: Near-close near-back rounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: true
+  labial: true
+  lateral: false
+  low: false
+  name: Upsilon
+  nasal: false
+  number: 321
+  pharyngeal: true
+  round: true
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u028A"
+  tense: false
+  unicode: LATIN SMALL LETTER UPSILON
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 0259
+  ant: 0
+  back: false
+  classes: Mid central vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: false
+  name: Schwa
+  nasal: false
+  number: 322
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\u0259"
+  tense: false
+  unicode: LATIN SMALL LETTER SCHWA
+  voice: true
+- ATR: false
+  CG: false
+  SG: false
+  USV: 00E6
+  ant: 0
+  back: false
+  classes: Near-open front unrounded vowel
+  cons: false
+  cont: true
+  coronal: false
+  del_rel: false
+  dist: 0
+  dorsal: true
+  high: false
+  labial: true
+  lateral: false
+  low: true
+  name: Ash; Lower-case A-E ligature
+  nasal: false
+  number: 325
+  pharyngeal: true
+  round: false
+  son: true
+  strident: false
+  syl: true
+  symbol: "\xE6"
+  tense: true
+  unicode: LATIN SMALL LETTER AE
+  voice: true
