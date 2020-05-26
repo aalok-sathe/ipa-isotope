@@ -40,11 +40,11 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                     new_entry['sonority'] = 5
 
                 # determining manner of articulation
-                if "stop" or "plosive" in full_details:
+                if "stop" in full_details or "plosive" in full_details:
                     new_entry["manner"] = "plosive"
                 elif "trill" in full_details:
                     new_entry["manner"] = "trill"
-                elif "tap" or "flap" in full_details:
+                elif "tap" in full_details or "flap" in full_details:
                     new_entry["manner"] = "tap/flap"
                 elif "fricative" in full_details:
                     if "lateral" in full_details:
