@@ -159,6 +159,12 @@ body {
   font-size: 12px;
 }
 
+.element-item .sonority {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
 .element-item.plosive          { background: #F00; background: hsl(   0, 100%, 50%); }
 .element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
 .element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
