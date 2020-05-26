@@ -845,7 +845,7 @@
   nasal: false
   number: 132
   pharyngeal: false
-  place: alveolo
+  place: alveolar
   round: 0
   son: false
   sonority: 2
@@ -878,7 +878,7 @@
   nasal: false
   number: 133
   pharyngeal: false
-  place: alveolo
+  place: alveolar
   round: 0
   son: false
   sonority: 2
@@ -911,7 +911,7 @@
   nasal: false
   number: 134
   pharyngeal: false
-  place: alveolo
+  place: alveolar
   round: 0
   son: false
   sonority: 5
@@ -944,7 +944,7 @@
   nasal: false
   number: 135
   pharyngeal: false
-  place: alveolo
+  place: alveolar
   round: 0
   son: false
   sonority: 5

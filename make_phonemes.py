@@ -69,7 +69,7 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                 elif "dental" in full_details.lower():
                     new_entry["place"] = "dental"
                 elif "alveolar" in full_details.lower():
-                    new_entry["place"] = "alveolo"
+                    new_entry["place"] = "alveolar"
                 elif "postalveolar" in full_details.lower():
                     new_entry["place"] = "postalveolar"
                 elif "retroflex" in full_details.lower():
