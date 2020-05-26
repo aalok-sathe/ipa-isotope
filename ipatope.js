@@ -13,10 +13,10 @@ var $grid = $('.grid').isotope({
   stamp: '.stamp',
 
   getSortData: {
-    name: '.name',
+    name: '[name]',
     symbol: '.symbol',
     number: '.number parseInt',
-    sonority: '.sonority',
+    sonority: '.sonority parseFloat',
     category: '[data-category]',
     weight: function(itemElem) {
       var weight = $(itemElem).find('.weight').text();

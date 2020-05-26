@@ -1,10 +1,13 @@
 <!-- whatever we wish to display on the phoneme -->
 
-<div class="phoneme-item card {{ phoneme.classes }}">
+<div class="phoneme-item card {{ phoneme.classes }}" name="{{ phoneme.name }}">
   <!-- <h3 class="name">{{ phoneme.name }}</h3> -->
   <p class="symbol">{{ phoneme.symbol }}</p>
   <p class="sonority">{{ phoneme.sonority }}</p>
-  <p class="manner">{{ phoneme.manner }}</p>
-  <p class="place">{{ phoneme.place }}</p>
+  {% if phoneme.consonant %}
   <p class="voicing">{{ phoneme.voice }}</p>
+  <p class="place">{{ phoneme.place }}</p>
+  <p class="manner">{{ phoneme.lateral }} {{ phoneme.manner }}</p>
+  {% else %}
+  {% endif %}
 </div>
