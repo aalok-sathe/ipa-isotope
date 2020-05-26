@@ -16,7 +16,7 @@ var $grid = $('.grid').isotope({
     name: '.name',
     symbol: '.symbol',
     number: '.number parseInt',
-    sonority: '.sonority',
+    sonority: '.sonority parseFloat',
     category: '[data-category]',
     weight: function(itemElem) {
       var weight = $(itemElem).find('.weight').text();
