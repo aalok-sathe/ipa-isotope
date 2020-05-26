@@ -345,7 +345,7 @@
   labial: true
   lateral: false
   low: 0
-  manner: plosive
+  manner: nasal
   name: Lower-case M
   nasal: true
   number: 114
@@ -378,7 +378,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: nasal
   name: Lower-case N
   nasal: true
   number: 116
@@ -411,7 +411,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: nasal
   name: Right-tail N
   nasal: true
   number: 117
@@ -444,7 +444,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: nasal
   name: Left-tail N (at left)
   nasal: true
   number: 118
@@ -477,7 +477,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: nasal
   name: Eng
   nasal: true
   number: 119
@@ -510,7 +510,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: nasal
   name: Small capital N
   nasal: true
   number: 120
@@ -543,7 +543,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: trill
   name: Lower-case R
   nasal: false
   number: 122
@@ -576,7 +576,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: trill
   name: Small capital R
   nasal: false
   number: 123
@@ -609,7 +609,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: tap/flap
   name: Fish-hook R
   nasal: false
   number: 124
@@ -642,7 +642,7 @@
   labial: true
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Phi
   nasal: false
   number: 126
@@ -675,7 +675,7 @@
   labial: true
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Beta
   nasal: false
   number: 127
@@ -708,7 +708,7 @@
   labial: true
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Lower-case F
   nasal: false
   number: 128
@@ -741,7 +741,7 @@
   labial: true
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Lower-case V
   nasal: false
   number: 129
@@ -774,7 +774,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Theta
   nasal: false
   number: 130
@@ -807,7 +807,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Eth
   nasal: false
   number: 131
@@ -840,7 +840,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Lower-case S
   nasal: false
   number: 132
@@ -873,7 +873,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Lower-case Z
   nasal: false
   number: 133
@@ -906,7 +906,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Esh
   nasal: false
   number: 134
@@ -939,7 +939,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Ezh; Tailed Z
   nasal: false
   number: 135
@@ -972,7 +972,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: C cedilla
   nasal: false
   number: 138
@@ -1005,7 +1005,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Curly-tail J
   nasal: false
   number: 139
@@ -1038,7 +1038,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: fricative
   name: Lower-case X
   nasal: false
   number: 140
@@ -1071,7 +1071,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: fricative
   name: Gamma
   nasal: false
   number: 141
@@ -1104,7 +1104,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: fricative
   name: Chi
   nasal: false
   number: 142
@@ -1137,7 +1137,7 @@
   labial: false
   lateral: false
   low: false
-  manner: plosive
+  manner: fricative
   name: Inverted small capital R
   nasal: false
   number: 143
@@ -1170,7 +1170,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Barred H
   nasal: false
   number: 144
@@ -1203,7 +1203,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Reversed glottal stop
   nasal: false
   number: 145
@@ -1236,7 +1236,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Lower-case H
   nasal: false
   number: 146
@@ -1269,7 +1269,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Hooktop H
   nasal: false
   number: 147
@@ -1302,7 +1302,7 @@
   labial: false
   lateral: true
   low: 0
-  manner: plosive
+  manner: lateral fricative
   name: Belted L
   nasal: false
   number: 148
@@ -1335,7 +1335,7 @@
   labial: false
   lateral: true
   low: 0
-  manner: plosive
+  manner: lateral fricative
   name: L-Ezh ligature
   nasal: false
   number: 149
@@ -1368,7 +1368,7 @@
   labial: true
   lateral: false
   low: 0
-  manner: plosive
+  manner: approximant
   name: Cursive V
   nasal: false
   number: 150
@@ -1401,7 +1401,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: approximant
   name: Lower-case J
   nasal: false
   number: 153
@@ -1434,7 +1434,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: approximant
   name: Turned M, right Leg
   nasal: false
   number: 154
@@ -1467,7 +1467,7 @@
   labial: false
   lateral: true
   low: 0
-  manner: plosive
+  manner: lateral approximant
   name: Lower-case L
   nasal: false
   number: 155
@@ -1500,7 +1500,7 @@
   labial: false
   lateral: true
   low: false
-  manner: plosive
+  manner: lateral approximant
   name: Turned Y
   nasal: false
   number: 157
@@ -1533,7 +1533,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: approximant
   name: Lower-case W
   nasal: false
   number: 170
@@ -1566,7 +1566,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: approximant
   name: Turned H
   nasal: false
   number: 171
@@ -1599,7 +1599,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Curly-tail C
   nasal: false
   number: 182
@@ -1632,7 +1632,7 @@
   labial: false
   lateral: false
   low: 0
-  manner: plosive
+  manner: fricative
   name: Curly-tail Z
   nasal: false
   number: 183
@@ -1698,7 +1698,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Lower-case I
   nasal: false
   number: 301
@@ -1731,7 +1731,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Lower-case E
   nasal: false
   number: 302
@@ -1764,7 +1764,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Epsilon
   nasal: false
   number: 303
@@ -1797,7 +1797,7 @@
   labial: true
   lateral: false
   low: true
-  manner: plosive
+  manner: unknown
   name: Lower-case A
   nasal: false
   number: 304
@@ -1830,7 +1830,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Open O
   nasal: false
   number: 306
@@ -1863,7 +1863,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Lower-case O
   nasal: false
   number: 307
@@ -1896,7 +1896,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Lower-case U
   nasal: false
   number: 308
@@ -1929,7 +1929,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Lower-case Y
   nasal: false
   number: 309
@@ -1962,7 +1962,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Slashed O
   nasal: false
   number: 310
@@ -1995,7 +1995,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Lower-case O-E ligature
   nasal: false
   number: 311
@@ -2028,7 +2028,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Turned V
   nasal: false
   number: 314
@@ -2061,7 +2061,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Turned M
   nasal: false
   number: 316
@@ -2094,7 +2094,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Barred I
   nasal: false
   number: 317
@@ -2127,7 +2127,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Small capital I
   nasal: false
   number: 319
@@ -2160,7 +2160,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Small capital Y
   nasal: false
   number: 320
@@ -2193,7 +2193,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Upsilon
   nasal: false
   number: 321
@@ -2226,7 +2226,7 @@
   labial: true
   lateral: false
   low: false
-  manner: plosive
+  manner: unknown
   name: Schwa
   nasal: false
   number: 322
@@ -2259,7 +2259,7 @@
   labial: true
   lateral: false
   low: true
-  manner: plosive
+  manner: unknown
   name: Ash; Lower-case A-E ligature
   nasal: false
   number: 325
