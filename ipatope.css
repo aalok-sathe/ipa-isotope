@@ -75,9 +75,9 @@ body {
   clear: both;
 }
 
-/* ---- .element-item ---- */
+/* ---- .phoneme-item ---- */
 
-.element-item {
+.phoneme-item {
   position: relative;
   float: left;
   width: 112px;
@@ -88,12 +88,12 @@ body {
   color: #262524;
 }
 
-.element-item > * {
+.phoneme-item > * {
   margin: 0;
   padding: 0;
 }
 
-.element-item .name {
+.phoneme-item .name {
   position: absolute;
 
   left: 10px;
@@ -104,7 +104,7 @@ body {
   font-weight: normal;
 }
 
-.element-item .voicing {
+.phoneme-item .voicing {
   position: absolute;
 
   left: 10px;
@@ -115,7 +115,7 @@ body {
   font-weight: normal;
 }
 
-.element-item .place {
+.phoneme-item .place {
   position: absolute;
 
   left: 10px;
@@ -126,7 +126,7 @@ body {
   font-weight: normal;
 }
 
-.element-item .manner {
+.phoneme-item .manner {
   position: absolute;
 
   left: 10px;
@@ -137,7 +137,7 @@ body {
   font-weight: normal;
 }
 
-.element-item .symbol {
+.phoneme-item .symbol {
   position: absolute;
   left: 10px;
   top: 0px;
@@ -146,33 +146,33 @@ body {
   color: white;
 }
 
-.element-item .number {
+.phoneme-item .number {
   position: absolute;
   right: 8px;
   top: 5px;
 }
 
-.element-item .weight {
+.phoneme-item .weight {
   position: absolute;
   left: 10px;
   top: 76px;
   font-size: 12px;
 }
 
-.element-item .sonority {
+.phoneme-item .sonority {
   position: absolute;
   right: 8px;
   top: 5px;
 }
 
-.element-item.plosive          { background: #F00; background: hsl(   0, 100%, 50%); }
-.element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
-.element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
-.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
-.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
-.element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
-.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
-.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
-.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
-.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
-.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
+.phoneme-item.plosive          { background: #F00; background: hsl(   0, 100%, 50%); }
+.phoneme-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
+.phoneme-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.phoneme-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.phoneme-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.phoneme-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.phoneme-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.phoneme-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.phoneme-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.phoneme-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.phoneme-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
