@@ -11,7 +11,16 @@
   symbol:   g
   sound:    'none'
   classes:  'voiced velar plosive'
-  sonority: 1.1
+  sonority: 1
   manner:   'plosive'
   place:    'velar'
   voicing:  'voiced'
+
+- name:     f
+  symbol:   f
+  sound:    'none'
+  classes:  'unvoiced labiodental fricative'
+  sonority: 2
+  manner:   'fricative'
+  place:    'labiodental'
+  voicing:  'unvoiced'
