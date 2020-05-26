@@ -27,18 +27,6 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                 elif "Unvoiced" in full_details or not feats["features"]["voice"]:
                     new_entry['voicing'] = 'unvoiced'
 
-                # determining sonority
-                if phone in ['p', 'b', 't', 'd', 'k', 'g']:
-                    new_entry['sonority'] = 1
-                elif phone in ['f', 'v', 's', 'z']:
-                    new_entry['sonority'] = 2
-                elif phone in ['m', 'n']:
-                    new_entry['sonority'] = 3
-                elif phone in ['l', 'r']:
-                    new_entry['sonority'] = 4
-                else:
-                    new_entry['sonority'] = 5
-
                 # determining manner of articulation
                 if "stop" in full_details or "plosive" in full_details:
                     new_entry["manner"] = "plosive"
@@ -60,6 +48,18 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                     new_entry["manner"] = "nasal"
                 else:
                     new_entry["manner"] = "unknown"
+
+                # determining sonority
+                if phone in ['p', 'b', 't', 'd', 'k', 'g'] or new_entry["manner"] == "plosive":
+                    new_entry['sonority'] = 1
+                elif phone in ['f', 'v', 's', 'z'] or "fricative" in new_entry["manner"]:
+                    new_entry['sonority'] = 2
+                elif phone in ['m', 'n'] or "nasal" in new_entry["manner"]:
+                    new_entry['sonority'] = 3
+                elif phone in ['l', 'r'] or "approximant" in new_entry["manner"] or "tap" in new_entry["manner"]:
+                    new_entry['sonority'] = 4
+                else:
+                    new_entry['sonority'] = 5
 
                 # determining place of articulation
                 if "bilabial" in full_details.lower():

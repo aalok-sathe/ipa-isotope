@@ -155,7 +155,7 @@
   place: palatal
   round: 0
   son: false
-  sonority: 5
+  sonority: 1
   strident: false
   syl: false
   symbol: c
@@ -188,7 +188,7 @@
   place: palatal
   round: 0
   son: false
-  sonority: 5
+  sonority: 1
   strident: false
   syl: false
   symbol: "\u025F"
@@ -254,7 +254,7 @@
   place: uvular
   round: 0
   son: false
-  sonority: 5
+  sonority: 1
   strident: false
   syl: false
   symbol: q
@@ -287,7 +287,7 @@
   place: uvular
   round: 0
   son: false
-  sonority: 5
+  sonority: 1
   strident: false
   syl: false
   symbol: "\u0262"
@@ -320,7 +320,7 @@
   place: glottal
   round: 0
   son: false
-  sonority: 5
+  sonority: 1
   strident: false
   syl: false
   symbol: "\u0294"
@@ -419,7 +419,7 @@
   place: retroflex
   round: 0
   son: true
-  sonority: 5
+  sonority: 3
   strident: false
   syl: false
   symbol: "\u0273"
@@ -452,7 +452,7 @@
   place: palatal
   round: 0
   son: true
-  sonority: 5
+  sonority: 3
   strident: false
   syl: false
   symbol: "\u0272"
@@ -485,7 +485,7 @@
   place: velar
   round: 0
   son: true
-  sonority: 5
+  sonority: 3
   strident: false
   syl: false
   symbol: "\u014B"
@@ -518,7 +518,7 @@
   place: uvular
   round: 0
   son: true
-  sonority: 5
+  sonority: 3
   strident: false
   syl: false
   symbol: "\u0274"
@@ -617,7 +617,7 @@
   place: dental
   round: 0
   son: false
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: "\u027E"
@@ -650,7 +650,7 @@
   place: bilabial
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0278"
@@ -683,7 +683,7 @@
   place: bilabial
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u03B2"
@@ -782,7 +782,7 @@
   place: dental
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u03B8"
@@ -815,7 +815,7 @@
   place: dental
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\xF0"
@@ -914,7 +914,7 @@
   place: alveolar
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: true
   syl: false
   symbol: "\u0283"
@@ -947,7 +947,7 @@
   place: alveolar
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0292"
@@ -980,7 +980,7 @@
   place: palatal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\xE7"
@@ -1013,7 +1013,7 @@
   place: palatal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u029D"
@@ -1046,7 +1046,7 @@
   place: velar
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: x
@@ -1079,7 +1079,7 @@
   place: velar
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0263"
@@ -1112,7 +1112,7 @@
   place: uvular
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u03C7"
@@ -1145,7 +1145,7 @@
   place: uvular
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0281"
@@ -1178,7 +1178,7 @@
   place: pharyngeal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0127"
@@ -1211,7 +1211,7 @@
   place: pharyngeal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0295"
@@ -1244,7 +1244,7 @@
   place: glottal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: h
@@ -1277,7 +1277,7 @@
   place: glottal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0266"
@@ -1310,7 +1310,7 @@
   place: dental
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u026C"
@@ -1343,7 +1343,7 @@
   place: dental
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u026E"
@@ -1376,7 +1376,7 @@
   place: labiodental
   round: 0
   son: true
-  sonority: 5
+  sonority: 4
   strident: true
   syl: false
   symbol: "\u028B"
@@ -1409,7 +1409,7 @@
   place: palatal
   round: false
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: j
@@ -1442,7 +1442,7 @@
   place: velar
   round: false
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: "\u0270"
@@ -1508,7 +1508,7 @@
   place: palatal
   round: 0
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: "\u028E"
@@ -1541,7 +1541,7 @@
   place: velar
   round: true
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: w
@@ -1574,7 +1574,7 @@
   place: palatal
   round: true
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: "\u0265"
@@ -1607,7 +1607,7 @@
   place: palatal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0255"
@@ -1640,7 +1640,7 @@
   place: palatal
   round: 0
   son: false
-  sonority: 5
+  sonority: 2
   strident: false
   syl: false
   symbol: "\u0291"
