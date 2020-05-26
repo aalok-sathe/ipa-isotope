@@ -22,9 +22,9 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                 new_entry["classes"] = full_details
 
                 # determining voicing
-                if "Voiced" in full_details:
+                if "Voiced" in full_details or feats["features"]["voice"]:
                     new_entry['voicing'] = 'voiced'
-                elif "Unvoiced" in full_details:
+                elif "Unvoiced" in full_details or not feats["features"]["voice"]:
                     new_entry['voicing'] = 'unvoiced'
 
                 # determining sonority
