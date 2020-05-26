@@ -1,3 +1,4 @@
-[submodule "phonemes"]
+
+[submodule "phonemelib"]
 	path = phonemes
-	url = https://github.com/notnami/phonemes.git
+	url = https://github.com/aalok-sathe/phonemes
