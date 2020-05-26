@@ -584,7 +584,7 @@
   place: uvular
   round: 0
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: false
   symbol: "\u0280"
@@ -1937,7 +1937,7 @@
   place: unknown
   round: true
   son: true
-  sonority: 5
+  sonority: 4
   strident: false
   syl: true
   symbol: y
@@ -2069,7 +2069,7 @@
   place: unknown
   round: false
   son: true
-  sonority: 5
+  sonority: 3
   strident: false
   syl: true
   symbol: "\u026F"

@@ -54,9 +54,9 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                     new_entry['sonority'] = 1
                 elif phone in ['f', 'v', 's', 'z'] or "fricative" in new_entry["manner"]:
                     new_entry['sonority'] = 2
-                elif phone in ['m', 'n'] or "nasal" in new_entry["manner"]:
+                elif phone in ['m', 'n', 'ɯ'] or "nasal" in new_entry["manner"]:
                     new_entry['sonority'] = 3
-                elif phone in ['l', 'r'] or "approximant" in new_entry["manner"] or "tap" in new_entry["manner"]:
+                elif phone in ['l', 'r', 'y'] or "approximant" in new_entry["manner"] or "tap" in new_entry["manner"] or "trill" in new_entry["manner"]:
                     new_entry['sonority'] = 4
                 else:
                     new_entry['sonority'] = 5
