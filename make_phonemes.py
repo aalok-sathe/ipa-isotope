@@ -39,6 +39,30 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                 else:
                     new_entry['sonority'] = 5
 
+                # determining manner of articulation
+                if "stop" or "plosive" in full_details:
+                    new_entry["manner"] = "plosive"
+                elif "trill" in full_details:
+                    new_entry["manner"] = "trill"
+                elif "tap" or "flap" in full_details:
+                    new_entry["manner"] = "tap/flap"
+                elif "fricative" in full_details:
+                    if "lateral" in full_details:
+                        new_entry["manner"] = "lateral fricative"
+                    else:
+                        new_entry["manner"] = "fricative"
+                elif "approximant" in full_details:
+                    if "lateral" in full_details:
+                        new_entry["manner"] = "lateral approximant"
+                    else:
+                        new_entry["manner"] = "approximant"
+                elif "nasal" in full_details:
+                    new_entry["manner"] = "nasal"
+                else:
+                    new_entry["manner"] = "unknown"
+
+                # determining
+
                 # other features
                 for feature_desc, feature_value in feats["features"].items():
                     new_entry[feature_desc] = feature_value
