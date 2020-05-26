@@ -167,6 +167,11 @@ body {
 
 .phoneme-item.plosive         { background: #F00; background: hsl(   0, 100%, 50%); }
 .phoneme-item.fricative       { background: #F80; background: hsl(  36, 100%, 50%); }
+.phoneme-item.nasal           { background: #FF0; background: hsl(  72, 100%, 50%); }
+.phoneme-item.trill           { background: #0F0; background: hsl( 108, 100%, 50%); }
+.phoneme-item.tap             { background: #0F8; background: hsl( 144, 100%, 50%); }
+.phoneme-item.approximant     { background: #0FF; background: hsl( 180, 100%, 50%); }
+
 .phoneme-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
 .phoneme-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
 .phoneme-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
