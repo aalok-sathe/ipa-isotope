@@ -61,7 +61,35 @@ with open('data/ipaBook-amundo.json') as log_file, open('data/phonemes-riggle.js
                 else:
                     new_entry["manner"] = "unknown"
 
-                # determining
+                # determining place of articulation
+                if "bilabial" in full_details.lower():
+                    new_entry["place"] = "bilabial"
+                elif "labiodental" in full_details.lower():
+                    new_entry["place"] = "labiodental"
+                elif "dental" in full_details.lower():
+                    new_entry["place"] = "dental"
+                elif "alveolar" in full_details.lower():
+                    new_entry["place"] = "alveolo"
+                elif "postalveolar" in full_details.lower():
+                    new_entry["place"] = "postalveolar"
+                elif "retroflex" in full_details.lower():
+                    new_entry["place"] = "retroflex"
+                elif "palatoalveolar" in full_details.lower():
+                    new_entry["place"] = "palatoalveolar"
+                elif "palatal" in full_details.lower():
+                    new_entry["place"] = "palatal"
+                elif "velar" in full_details.lower():
+                    new_entry["place"] = "velar"
+                elif "uvular" in full_details.lower():
+                    new_entry["place"] = "uvular"
+                elif "pharyngeal" in full_details.lower():
+                    new_entry["place"] = "pharyngeal"
+                elif "epiglottal" in full_details.lower():
+                    new_entry["place"] = "epiglottal"
+                elif "glottal" in full_details.lower():
+                    new_entry["place"] = "glottal"
+                else:
+                    new_entry["place"] = "unknown"
 
                 # other features
                 for feature_desc, feature_value in feats["features"].items():
