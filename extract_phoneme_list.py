@@ -6,7 +6,7 @@ import yaml
 from phonemes import phonemes
 
 phonemelist = [
-    dict(name=ph.name, symbol=sym, **ph.ipa_desc, **ph.properties)#, **ph.features)
+    dict(name=ph.name, symbol=sym, **ph.ipa_desc, **ph.properties)  # , **ph.features)
     for sym, ph in phonemes.items()
 ]
 
