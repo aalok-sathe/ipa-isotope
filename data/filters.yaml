@@ -1,0 +1,6 @@
+- func: plosive
+  text: plosive
+- func: voiceless
+  text: unvoiced
+- func: velar
+  text: velar
