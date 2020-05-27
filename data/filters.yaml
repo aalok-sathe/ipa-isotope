@@ -38,5 +38,5 @@ manner:
     - text: vowel
       fn:   .vowel
 properties:
-    - text: sonority > 3
-      fn:   sonGreaterThan3
+    - text: sonority > 5
+      fn:   sonGreaterThan5

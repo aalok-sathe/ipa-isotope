@@ -33,9 +33,9 @@ var filterFns = {
         return parseInt(number, 10) > 50;
     },
     // show if sonority is greater than 3
-    sonGreaterThan3: function() {
+    sonGreaterThan5: function() {
         var number = $(this).find('.sonority').text();
-        return parseFloat(number, 10) > 3;
+        return parseFloat(number, 10) > 5;
     },
     // show if name ends with -ium
     ium: function() {
@@ -44,7 +44,7 @@ var filterFns = {
     }
 };
 
-var filters = {}
+filters = {}
 // bind filter button click
 $('.filters').on('click', '.button', function(event) {
     // $checkbox = $(event.currentTarget);
@@ -61,7 +61,7 @@ $('.filters').on('click', '.button', function(event) {
     if (filterValue in filterFns) {
         console.log(filterFns, filterValue);
         $grid.isotope({
-            filter: filters[filterValue]
+            filter: filterFns[filterValue]
         });
     } else {
         $grid.isotope({
