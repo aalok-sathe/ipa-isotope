@@ -11,7 +11,7 @@
 
         {% for group, filters in filtergroups.items() %}
         <div class="ui-group">
-            <div class="ui-group-item button-group-label" style="float: left;"><label> {{group}} </label></div>
+            <div class="ui-group-item button-group-label" style="float: left;"><label style="margin-left: 10px; margin-right: 10px;"> {{group}} </label></div>
             <div class="button-group" data-filter-group="{{ group }}">
                 <button class="ui-group-item btn btn-sm button is-checked" data-filter="*">all</button>
                 {% for filter in filters %}
@@ -27,7 +27,7 @@
 
     <div class="sorters">
         <div class="ui-group">
-            <div class="ui-group-item button-group-label" style="float: left;"><label> Sort key </label></div>
+            <div class="ui-group-item button-group-label" style="float: left;"><label> sort by </label></div>
             <div class="button-group" data-filter-group="{{ group }}">
                 <button class="ui-group-item btn btn-sm button is-checked" data-sort-by="original-order">original</button>
                 {% for sorter in sorters %}

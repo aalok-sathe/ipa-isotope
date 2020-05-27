@@ -106,7 +106,7 @@ $grid.find('.phoneme-item').each( function( i, gridItem ) {
   var draggie = new Draggabilly( gridItem );
   draggies.push( draggie );
   // bind drag events to Packery
-  $grid.isotope( 'bindDraggabillyEvents', draggie );
+  // $grid.packery( 'bindDraggabillyEvents', draggie );
 });
 
 
