@@ -1,7 +1,7 @@
 - func: .voiced
   text: voiced
 - func: .voiceless
-  text: unvoiced
+  text: voiceless
 - func: .plosive
   text: plosive
 - func: .velar
