@@ -95,8 +95,8 @@ body {
 .phoneme-item {
   position: relative;
   float: left;
-  width: 116px;
-  height: 116px;
+  width: 120px;
+  height: 120px;
   margin: 5px;
   padding: 10px;
   background: #888;
@@ -180,13 +180,17 @@ body {
   top: 5px;
 }
 
+/* coloring all at first such that unknowns get color too */
+.phoneme-item                 { background: #F08; background: hsl( 324, 100%, 50%); }
 .phoneme-item.plosive         { background: #F00; background: hsl(   0, 100%, 50%); }
 .phoneme-item.fricative       { background: #F80; background: hsl(  36, 100%, 50%); }
 .phoneme-item.nasal           { background: #FF0; background: hsl(  72, 100%, 50%); }
 .phoneme-item.trill           { background: #0F0; background: hsl( 108, 100%, 50%); }
 .phoneme-item.tap             { background: #0F8; background: hsl( 144, 100%, 50%); }
-.phoneme-item.approximant     { background: #0FF; background: hsl( 180, 100%, 50%); }
-/* Todo: why is there a fricative in approximant and vice-versa? Because we apply approximant later and one of them shows fricative or approximant*/
+.phoneme-item.approximant:not(.fricative)     { background: #0FF; background: hsl( 180, 100%, 50%); }
+.phoneme-item.vowel           { background: #08F; background: hsl( 216, 100%, 50%); }
+.phoneme-item.approximant.fricative   { background: #F0F; background: hsl( 288, 100%, 50%); }
+
 
 .phoneme-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
 .phoneme-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
