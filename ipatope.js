@@ -92,39 +92,38 @@ $('.ui-group').packery({
 
 // utils ----------------
 
-// flatten object by concatting values
-function concatValues(obj) {
-  var value = '';
-  for (var prop in obj) {
-    value += obj[prop];
-  }
-  return value;
-}
+let f = (a, b) => [].concat(...a.map(a => b.map(b => [].concat(a, b))));
+let cartesian = (a, b, ...c) => b ? cartesian(f(a, b), ...c) : a;
 
-// // flatten object by concatting values, making sure to apply demorgans laws ','
+// flatten object by concatting values
 // function concatValues(obj) {
-//     console.log(obj);
-//     values = '';
-//     for (var prop in obj) {
-//         obj[prop].split(',').forEach((item, i) => {
-//             console.log(item, i, values, values.split(',').map(val => val + item));
-//             values += concatArr(values.split(',').map(val => val + item))+',';
-//             console.log(values);
-//         });
-//     }
-//     var value = '';
-//     for (var val in values) {
-//         value += val;
-//         console.log(value);
-//     }
-//     return value;
-// }
-//
-// // flatten object by concatting values
-// function concatArr(arr) {
 //   var value = '';
-//   for (var v in arr) {
-//     value += arr[v];
+//   for (var prop in obj) {
+//     value += obj[prop];
 //   }
 //   return value;
 // }
+
+// flatten object by concatting values, making sure to apply demorgans laws ','
+function concatValues(obj) {
+
+    value = "";
+    for (var prop in obj) {
+        var parts = obj[prop].split(",");
+        var vals = value.split(",");
+        var newvals = cartesian(parts, vals);
+
+        value = newvals.map(x => concatArr(x)).join(',');
+    }
+
+    return value;
+}
+
+// flatten object by concatting values
+function concatArr(arr) {
+  var value = '';
+  for (var v in arr) {
+    value += arr[v];
+  }
+  return value;
+}
