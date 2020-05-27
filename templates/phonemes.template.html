@@ -3,65 +3,65 @@
 <html>
 
 <body>
-    <h1>IPAtope</h1>
+  <h1>IPAtope</h1>
 
-    <h4>Filter</h4>
+  <h4>Filter</h4>
 
-    <div class="filters">
+  <div class="filters">
 
-        {% for group, filters in filtergroups.items() %}
-        <div class="ui-group">
-            <div class="ui-group-item button-group-label" style="float: left;"><label style="margin-left: 10px; margin-right: 10px;"> {{group}} </label></div>
-            <div class="button-group" data-filter-group="{{ group }}">
-                <button class="ui-group-item btn btn-sm button is-checked" data-filter="*">all</button>
-                {% for filter in filters %}
-                {% include "filter.template.html" with context %}
-                {% endfor %}
-            </div>
-        </div>
+    {% for group, filters in filtergroups.items() %}
+    <div class="ui-group">
+      <div class="ui-group-item button-group-label" style="float: left;"><label style="margin-left: 10px; margin-right: 10px;"> {{group}} </label></div>
+      <div class="button-group" data-filter-group="{{ group }}">
+        <button class="ui-group-item btn btn-sm button is-checked" data-filter="*">all</button>
+        {% for filter in filters %}
+        {% include "filter.template.html" with context %}
         {% endfor %}
-
+      </div>
     </div>
+    {% endfor %}
 
-    <h4>Sort</h4>
+  </div>
 
-    <div class="sorters">
-        <div class="ui-group">
-            <div class="ui-group-item button-group-label" style="float: left;"><label> sort by </label></div>
-            <div class="button-group" data-filter-group="{{ group }}">
-                <button class="ui-group-item btn btn-sm button is-checked" data-sort-by="original-order">original</button>
-                {% for sorter in sorters %}
-                {% include "sorter.template.html" with context %}
-                {% endfor %}
-            </div>
-        </div>
+  <h4>Sort</h4>
+
+  <div class="sorters">
+    <div class="ui-group">
+      <div class="ui-group-item button-group-label" style="float: left;"><label style="margin-left: 10px; margin-right: 10px;"> sort by </label></div>
+      <div class="button-group" data-filter-group="{{ group }}">
+        <button class="ui-group-item btn btn-sm button is-checked" data-sort-by="original-order">original</button>
+        {% for sorter in sorters %}
+        {% include "sorter.template.html" with context %}
+        {% endfor %}
+      </div>
     </div>
+  </div>
 
-    <!-- <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
+  <!-- <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
         <button class="button" data-sort-by="name">name</button>
         <button class="button" data-sort-by="symbol">symbol</button>
         <button class="button" data-sort-by="sonority">sonority</button>
         <button class="button" data-sort-by="category">category</button>
     </div> -->
 
-    <h4>Controls</h4>
-    <div class="ui-group">
-        <div class="controls" style="margin: 5px;">
-            <button class="ui-group-item btn btn-sm button" type="button" name="button" onclick="$grid.isotope('shuffle');">
-                shuffle
-            </button>
-            <button class="ui-group-item btn btn-sm button" type="button" name="button" onclick="$grid.isotope({sortBy: 'original-order', filter: '*'});">
-                clear all
-            </button>
-        </div>
+  <h4>Controls</h4>
+  <div class="ui-group">
+    <div class="controls" style="margin: 5px;">
+      <button class="ui-group-item btn btn-sm button" type="button" name="button" onclick="$grid.isotope('shuffle');">
+        shuffle
+      </button>
+      <button class="ui-group-item btn btn-sm button" type="button" name="button" onclick="$grid.isotope({sortBy: 'original-order', filter: '*'});">
+        clear all
+      </button>
     </div>
-    <br>
+  </div>
+  <br>
 
-    <div class="grid">
-        {% for phoneme in phonemes %}
-        {% include "phoneme.template.html" with context %}
-        {% endfor %}
-    </div>
+  <div class="grid">
+    {% for phoneme in phonemes %}
+    {% include "phoneme.template.html" with context %}
+    {% endfor %}
+  </div>
 
 
 </body>
