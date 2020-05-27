@@ -1,157 +1,69 @@
-- character: "\u028B"
-  classes: 'consonant voiced    labiodental approximant    '
+- character: "\u026E"
+  classes: 'consonant voiced  dental alveolar  fricative    lateral '
   consonant: consonant
-  ipa description: Voiced labiodental approximant
-  ipa name: Cursive V
-  ipa number: 150
-  lateral: ''
-  manner: approximant
-  name: labiodental approximant
-  near: ''
-  opening: ''
-  place: labiodental
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 16.0
-  status: ''
-  symbol: "\u028B"
-  unicode name: LATIN SMALL LETTER V WITH HOOK
-  usv: 028B
-  voice: voiced
-  vowel: ''
-- character: "\u0266"
-  classes: 'consonant voiced    glottal fricative    '
-  consonant: consonant
-  ipa description: Voiced glottal fricative
-  ipa name: Hooktop H
-  ipa number: 147
-  lateral: ''
-  manner: fricative
-  name: voiced glottal fricative
-  near: ''
-  opening: ''
-  place: glottal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: "\u0266"
-  unicode name: LATIN SMALL LETTER H WITH HOOK
-  usv: '0266'
-  voice: voiced
-  vowel: ''
-- character: "\u026C"
-  classes: 'consonant voiceless   lateral dental alveolar fricative    '
-  consonant: consonant
-  ipa description: Voiceless dental or alveolar lateral fricative
-  ipa name: Belted L
-  ipa number: 148
+  ipa description: Voiced dental or alveolar lateral fricative
+  ipa name: L-Ezh ligature
+  ipa number: 149
   lateral: lateral
   manner: fricative
-  name: voiceless alveolar lateral fricative
+  name: voiced alveolar lateral fricative
   near: ''
   opening: ''
   place: dental alveolar
   position: ''
   release: ''
   rounding: ''
-  sonority: 17.5
+  sonority: 18.5
   status: ''
-  symbol: "\u026C"
-  unicode name: LATIN SMALL LETTER L WITH BELT
-  usv: 026C
-  voice: voiceless
+  symbol: "\u026E"
+  unicode name: LATIN SMALL LETTER LEZH
+  usv: 026E
+  voice: voiced
   vowel: ''
-- character: "\u0291"
-  classes: 'consonant voiced    alveolo-palatal fricative    '
+- character: r
+  classes: 'consonant voiced  dental alveolar  trill     '
   consonant: consonant
-  ipa description: Voiced alveolo-palatal fricative
-  ipa name: Curly-tail Z
-  ipa number: 183
+  ipa description: Voiced dental or alveolar trill
+  ipa name: Lower-case R
+  ipa number: 122
   lateral: ''
-  manner: fricative
-  name: voiced alveolo-palatal sibilant
+  manner: trill
+  name: alveolar trill
   near: ''
   opening: ''
-  place: alveolo-palatal
+  place: dental alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 14.0
+  status: ''
+  symbol: r
+  unicode name: LATIN SMALL LETTER R
+  usv: '0072'
+  voice: voiced
+  vowel: ''
+- character: v
+  classes: 'consonant voiced  labiodental  fricative     '
+  consonant: consonant
+  ipa description: Voiced labiodental fricative
+  ipa name: Lower-case V
+  ipa number: 129
+  lateral: ''
+  manner: fricative
+  name: voiced labiodental fricative
+  near: ''
+  opening: ''
+  place: labiodental
   position: ''
   release: ''
   rounding: ''
   sonority: 13.0
   status: ''
-  symbol: "\u0291"
-  unicode name: LATIN SMALL LETTER Z WITH CURL
-  usv: 0291
+  symbol: v
+  unicode name: LATIN SMALL LETTER V
+  usv: '0076'
   voice: voiced
   vowel: ''
-- character: j
-  classes: 'consonant voiced    palatal approximant    '
-  consonant: consonant
-  ipa description: Voiced palatal approximant
-  ipa name: Lower-case J
-  ipa number: 153
-  lateral: ''
-  manner: approximant
-  name: palatal approximant
-  near: ''
-  opening: ''
-  place: palatal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 16.0
-  status: ''
-  symbol: j
-  unicode name: LATIN SMALL LETTER J
-  usv: 006A
-  voice: voiced
-  vowel: ''
-- character: p
-  classes: 'consonant voiceless    bilabial plosive    '
-  consonant: consonant
-  ipa description: Voiceless bilabial plosive
-  ipa name: Lower-case P
-  ipa number: 101
-  lateral: ''
-  manner: plosive
-  name: voiceless bilabial plosive
-  near: ''
-  opening: ''
-  place: bilabial
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 11.5
-  status: ''
-  symbol: p
-  unicode name: LATIN SMALL LETTER P
-  usv: '0070'
-  voice: voiceless
-  vowel: ''
-- character: "\u026F"
-  classes: 'vowel back     close  unrounded  '
-  consonant: ''
-  ipa description: Close back unrounded vowel
-  ipa name: Turned M
-  ipa number: 316
-  lateral: ''
-  manner: ''
-  name: high back unrounded vowel
-  near: ''
-  opening: close
-  place: ''
-  position: back
-  release: ''
-  rounding: unrounded
-  sonority: 38.0
-  status: ''
-  symbol: "\u026F"
-  unicode name: LATIN SMALL LETTER TURNED M
-  usv: 026F
-  voice: ''
-  vowel: vowel
 - character: w
   classes: '          '
   consonant: ''
@@ -174,228 +86,8 @@
   usv: '0077'
   voice: ''
   vowel: ''
-- character: "\u026A"
-  classes: 'vowel near- near- front    close  unrounded  '
-  consonant: ''
-  ipa description: Near-close near-front unrounded vowel
-  ipa name: Small capital I
-  ipa number: 319
-  lateral: ''
-  manner: ''
-  name: near-high near-front unrounded vowel
-  near: near- near-
-  opening: close
-  place: ''
-  position: front
-  release: ''
-  rounding: unrounded
-  sonority: 38.0
-  status: ''
-  symbol: "\u026A"
-  unicode name: LATIN LETTER SMALL CAPITAL I
-  usv: 026A
-  voice: ''
-  vowel: vowel
-- character: "\xF0"
-  classes: 'consonant voiced    dental fricative    '
-  consonant: consonant
-  ipa description: Voiced dental fricative
-  ipa name: Eth
-  ipa number: 131
-  lateral: ''
-  manner: fricative
-  name: voiced dental fricative
-  near: ''
-  opening: ''
-  place: dental
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: "\xF0"
-  unicode name: LATIN SMALL LETTER ETH
-  usv: 00F0
-  voice: voiced
-  vowel: ''
-- character: m
-  classes: 'consonant voiced    bilabial nasal    '
-  consonant: consonant
-  ipa description: Voiced bilabial nasal
-  ipa name: Lower-case M
-  ipa number: 114
-  lateral: ''
-  manner: nasal
-  name: bilabial nasal
-  near: ''
-  opening: ''
-  place: bilabial
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.5
-  status: ''
-  symbol: m
-  unicode name: LATIN SMALL LETTER M
-  usv: 006D
-  voice: voiced
-  vowel: ''
-- character: "\u0292"
-  classes: 'consonant voiced    postalveolar fricative    '
-  consonant: consonant
-  ipa description: Voiced postalveolar fricative
-  ipa name: Ezh; Tailed Z
-  ipa number: 135
-  lateral: ''
-  manner: fricative
-  name: voiced palato-alveolar sibilant
-  near: ''
-  opening: ''
-  place: postalveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: "\u0292"
-  unicode name: LATIN SMALL LETTER EZH
-  usv: 0292
-  voice: voiced
-  vowel: ''
-- character: "\u0294"
-  classes: 'consonant    glottal plosive     '
-  consonant: consonant
-  ipa description: Glottal plosive
-  ipa name: Glottal stop
-  ipa number: 113
-  lateral: ''
-  manner: plosive
-  name: glottal stop
-  near: ''
-  opening: ''
-  place: glottal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 9.5
-  status: ''
-  symbol: "\u0294"
-  unicode name: LATIN LETTER GLOTTAL STOP
-  usv: 0294
-  voice: ''
-  vowel: ''
-- character: "\u027E"
-  classes: 'consonant voiced    dental alveolar tap    '
-  consonant: consonant
-  ipa description: Voiced dental or alveolar tap
-  ipa name: Fish-hook R
-  ipa number: 124
-  lateral: ''
-  manner: tap
-  name: alveolar flap
-  near: ''
-  opening: ''
-  place: dental alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 15.0
-  status: ''
-  symbol: "\u027E"
-  unicode name: LATIN SMALL LETTER R WITH FISHHOOK
-  usv: 027E
-  voice: voiced
-  vowel: ''
-- character: "\u03B8"
-  classes: 'consonant voiceless    dental fricative    '
-  consonant: consonant
-  ipa description: Voiceless dental fricative
-  ipa name: Theta
-  ipa number: 130
-  lateral: ''
-  manner: fricative
-  name: voiceless dental fricative
-  near: ''
-  opening: ''
-  place: dental
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\u03B8"
-  unicode name: GREEK SMALL LETTER THETA
-  usv: 03B8
-  voice: voiceless
-  vowel: ''
-- character: "\u0295"
-  classes: 'consonant voiced    pharyngeal fricative approximant    '
-  consonant: consonant
-  ipa description: Voiced pharyngeal fricative or approximant
-  ipa name: Reversed glottal stop
-  ipa number: 145
-  lateral: ''
-  manner: fricative approximant
-  name: voiced pharyngeal fricative
-  near: ''
-  opening: ''
-  place: pharyngeal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 16.33
-  status: ''
-  symbol: "\u0295"
-  unicode name: LATIN LETTER PHARYNGEAL VOICED FRICATIVE
-  usv: 0295
-  voice: voiced
-  vowel: ''
-- character: i
-  classes: 'vowel front     close  unrounded  '
-  consonant: ''
-  ipa description: Close front unrounded vowel
-  ipa name: Lower-case I
-  ipa number: 301
-  lateral: ''
-  manner: ''
-  name: high front unrounded vowel
-  near: ''
-  opening: close
-  place: ''
-  position: front
-  release: ''
-  rounding: unrounded
-  sonority: 38.0
-  status: ''
-  symbol: i
-  unicode name: LATIN SMALL LETTER I
-  usv: 0069
-  voice: ''
-  vowel: vowel
-- character: "\u0254"
-  classes: '          '
-  consonant: ''
-  ipa description: Open-mid back rounded vowel
-  ipa name: Open O
-  ipa number: 306
-  lateral: ''
-  manner: ''
-  name: low-mid back rounded vowel
-  near: ''
-  opening: ''
-  place: ''
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 5.0
-  status: ''
-  symbol: "\u0254"
-  unicode name: LATIN SMALL LETTER OPEN O
-  usv: '0254'
-  voice: ''
-  vowel: ''
 - character: "\u0268"
-  classes: 'vowel central     close  unrounded  '
+  classes: 'vowel     close central  unrounded  '
   consonant: ''
   ipa description: Close central unrounded vowel
   ipa name: Barred I
@@ -416,26 +108,70 @@
   usv: 0268
   voice: ''
   vowel: vowel
-- character: "\u028E"
-  classes: 'consonant voiced   lateral palatal approximant    '
+- character: "\u0292"
+  classes: 'consonant voiced  postalveolar  fricative     '
   consonant: consonant
-  ipa description: Voiced palatal lateral approximant
-  ipa name: Turned Y
-  ipa number: 157
-  lateral: lateral
-  manner: approximant
-  name: palatal lateral approximant
+  ipa description: Voiced postalveolar fricative
+  ipa name: Ezh; Tailed Z
+  ipa number: 135
+  lateral: ''
+  manner: fricative
+  name: voiced palato-alveolar sibilant
   near: ''
   opening: ''
-  place: palatal
+  place: postalveolar
   position: ''
   release: ''
   rounding: ''
-  sonority: 21.5
+  sonority: 13.0
   status: ''
-  symbol: "\u028E"
-  unicode name: LATIN SMALL LETTER TURNED Y
-  usv: 028E
+  symbol: "\u0292"
+  unicode name: LATIN SMALL LETTER EZH
+  usv: 0292
+  voice: voiced
+  vowel: ''
+- character: "\u0283"
+  classes: 'consonant voiceless  postalveolar  fricative     '
+  consonant: consonant
+  ipa description: Voiceless postalveolar fricative
+  ipa name: Esh
+  ipa number: 134
+  lateral: ''
+  manner: fricative
+  name: voiceless palato-alveolar sibilant
+  near: ''
+  opening: ''
+  place: postalveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\u0283"
+  unicode name: LATIN SMALL LETTER ESH
+  usv: 0283
+  voice: voiceless
+  vowel: ''
+- character: z
+  classes: 'consonant voiced  alveolar  fricative     '
+  consonant: consonant
+  ipa description: Voiced alveolar fricative
+  ipa name: Lower-case Z
+  ipa number: 133
+  lateral: ''
+  manner: fricative
+  name: voiced alveolar sibilant
+  near: ''
+  opening: ''
+  place: alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.0
+  status: ''
+  symbol: z
+  unicode name: LATIN SMALL LETTER Z
+  usv: 007A
   voice: voiced
   vowel: ''
 - character: "\u0153"
@@ -460,423 +196,27 @@
   usv: '0153'
   voice: ''
   vowel: ''
-- character: "\u0255"
-  classes: 'consonant voiceless    alveolo-palatal fricative    '
+- character: t
+  classes: 'consonant voiceless  dental alveolar  plosive     '
   consonant: consonant
-  ipa description: Voiceless alveolo-palatal fricative
-  ipa name: Curly-tail C
-  ipa number: 182
-  lateral: ''
-  manner: fricative
-  name: voiceless alveolo-palatal sibilant
-  near: ''
-  opening: ''
-  place: alveolo-palatal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\u0255"
-  unicode name: LATIN SMALL LETTER C WITH CURL
-  usv: '0255'
-  voice: voiceless
-  vowel: ''
-- character: "\u0280"
-  classes: 'consonant voiced    uvular trill    '
-  consonant: consonant
-  ipa description: Voiced uvular trill
-  ipa name: Small capital R
-  ipa number: 123
-  lateral: ''
-  manner: trill
-  name: uvular trill
-  near: ''
-  opening: ''
-  place: uvular
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 14.0
-  status: ''
-  symbol: "\u0280"
-  unicode name: LATIN LETTER SMALL CAPITAL R
-  usv: 0280
-  voice: voiced
-  vowel: ''
-- character: e
-  classes: '          '
-  consonant: ''
-  ipa description: Close-mid front unrounded vowel
-  ipa name: Lower-case E
-  ipa number: 302
-  lateral: ''
-  manner: ''
-  name: high-mid front unrounded vowel
-  near: ''
-  opening: ''
-  place: ''
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 5.0
-  status: ''
-  symbol: e
-  unicode name: LATIN SMALL LETTER E
-  usv: '0065'
-  voice: ''
-  vowel: ''
-- character: "\u0281"
-  classes: 'consonant voiced    uvular fricative    '
-  consonant: consonant
-  ipa description: Voiced uvular fricative
-  ipa name: Inverted small capital R
-  ipa number: 143
-  lateral: ''
-  manner: fricative
-  name: voiced uvular fricative
-  near: ''
-  opening: ''
-  place: uvular
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: "\u0281"
-  unicode name: LATIN LETTER SMALL CAPITAL INVERTED R
-  usv: 0281
-  voice: voiced
-  vowel: ''
-- character: "\u028F"
-  classes: 'vowel near- near- front    close  rounded  '
-  consonant: ''
-  ipa description: Near-close near-front rounded vowel
-  ipa name: Small capital Y
-  ipa number: 320
-  lateral: ''
-  manner: ''
-  name: near-high near-front rounded vowel
-  near: near- near-
-  opening: close
-  place: ''
-  position: front
-  release: ''
-  rounding: rounded
-  sonority: 38.0
-  status: ''
-  symbol: "\u028F"
-  unicode name: LATIN LETTER SMALL CAPITAL Y
-  usv: 028F
-  voice: ''
-  vowel: vowel
-- character: "\u014B"
-  classes: 'consonant voiced    velar nasal    '
-  consonant: consonant
-  ipa description: Voiced velar nasal
-  ipa name: Eng
-  ipa number: 119
-  lateral: ''
-  manner: nasal
-  name: velar nasal
-  near: ''
-  opening: ''
-  place: velar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.5
-  status: ''
-  symbol: "\u014B"
-  unicode name: LATIN SMALL LETTER ENG
-  usv: 014B
-  voice: voiced
-  vowel: ''
-- character: "\u0283"
-  classes: 'consonant voiceless    postalveolar fricative    '
-  consonant: consonant
-  ipa description: Voiceless postalveolar fricative
-  ipa name: Esh
-  ipa number: 134
-  lateral: ''
-  manner: fricative
-  name: voiceless palato-alveolar sibilant
-  near: ''
-  opening: ''
-  place: postalveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\u0283"
-  unicode name: LATIN SMALL LETTER ESH
-  usv: 0283
-  voice: voiceless
-  vowel: ''
-- character: f
-  classes: 'consonant voiceless    labiodental fricative    '
-  consonant: consonant
-  ipa description: Voiceless labiodental fricative
-  ipa name: Lower-case F
-  ipa number: 128
-  lateral: ''
-  manner: fricative
-  name: voiceless labiodental fricative
-  near: ''
-  opening: ''
-  place: labiodental
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: f
-  unicode name: LATIN SMALL LETTER F
-  usv: '0066'
-  voice: voiceless
-  vowel: ''
-- character: q
-  classes: 'consonant voiceless    uvular plosive    '
-  consonant: consonant
-  ipa description: Voiceless uvular plosive
-  ipa name: Lower-case Q
-  ipa number: 111
+  ipa description: Voiceless dental or alveolar plosive
+  ipa name: Lower-case T
+  ipa number: 103
   lateral: ''
   manner: plosive
-  name: voiceless uvular stop
-  near: ''
-  opening: ''
-  place: uvular
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 11.5
-  status: ''
-  symbol: q
-  unicode name: LATIN SMALL LETTER Q
-  usv: '0071'
-  voice: voiceless
-  vowel: ''
-- character: x
-  classes: 'consonant voiceless    velar fricative    '
-  consonant: consonant
-  ipa description: Voiceless velar fricative
-  ipa name: Lower-case X
-  ipa number: 140
-  lateral: ''
-  manner: fricative
-  name: voiceless velar fricative
-  near: ''
-  opening: ''
-  place: velar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: x
-  unicode name: LATIN SMALL LETTER X
-  usv: 0078
-  voice: voiceless
-  vowel: ''
-- character: "\u0278"
-  classes: 'consonant voiceless    bilabial fricative    '
-  consonant: consonant
-  ipa description: Voiceless bilabial fricative
-  ipa name: Phi
-  ipa number: 126
-  lateral: ''
-  manner: fricative
-  name: voiceless bilabial fricative
-  near: ''
-  opening: ''
-  place: bilabial
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\u0278"
-  unicode name: LATIN SMALL LETTER PHI
-  usv: 0278
-  voice: voiceless
-  vowel: ''
-- character: u
-  classes: 'vowel back     close  rounded  '
-  consonant: ''
-  ipa description: Close back rounded vowel
-  ipa name: Lower-case U
-  ipa number: 308
-  lateral: ''
-  manner: ''
-  name: high back rounded vowel
-  near: ''
-  opening: close
-  place: ''
-  position: back
-  release: ''
-  rounding: rounded
-  sonority: 38.0
-  status: ''
-  symbol: u
-  unicode name: LATIN SMALL LETTER U
-  usv: '0075'
-  voice: ''
-  vowel: vowel
-- character: "\u026E"
-  classes: 'consonant voiced   lateral dental alveolar fricative    '
-  consonant: consonant
-  ipa description: Voiced dental or alveolar lateral fricative
-  ipa name: L-Ezh ligature
-  ipa number: 149
-  lateral: lateral
-  manner: fricative
-  name: voiced alveolar lateral fricative
+  name: voiceless alveolar stop
   near: ''
   opening: ''
   place: dental alveolar
   position: ''
   release: ''
   rounding: ''
-  sonority: 18.5
+  sonority: 11.5
   status: ''
-  symbol: "\u026E"
-  unicode name: LATIN SMALL LETTER LEZH
-  usv: 026E
-  voice: voiced
-  vowel: ''
-- character: "\u03C7"
-  classes: 'consonant voiceless    uvular fricative    '
-  consonant: consonant
-  ipa description: Voiceless uvular fricative
-  ipa name: Chi
-  ipa number: 142
-  lateral: ''
-  manner: fricative
-  name: voiceless uvular fricative
-  near: ''
-  opening: ''
-  place: uvular
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\u03C7"
-  unicode name: GREEK SMALL LETTER CHI
-  usv: 03C7
+  symbol: t
+  unicode name: LATIN SMALL LETTER T
+  usv: '0074'
   voice: voiceless
-  vowel: ''
-- character: b
-  classes: 'consonant voiced    bilabial plosive    '
-  consonant: consonant
-  ipa description: Voiced bilabial plosive
-  ipa name: Lower-case B
-  ipa number: 102
-  lateral: ''
-  manner: plosive
-  name: voiced bilabial plosive
-  near: ''
-  opening: ''
-  place: bilabial
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.5
-  status: ''
-  symbol: b
-  unicode name: LATIN SMALL LETTER B
-  usv: '0062'
-  voice: voiced
-  vowel: ''
-- character: y
-  classes: 'vowel front     close  rounded  '
-  consonant: ''
-  ipa description: Close front rounded vowel
-  ipa name: Lower-case Y
-  ipa number: 309
-  lateral: ''
-  manner: ''
-  name: high front rounded vowel
-  near: ''
-  opening: close
-  place: ''
-  position: front
-  release: ''
-  rounding: rounded
-  sonority: 38.0
-  status: ''
-  symbol: y
-  unicode name: LATIN SMALL LETTER Y
-  usv: 0079
-  voice: ''
-  vowel: vowel
-- character: "\u028A"
-  classes: 'vowel near- near- back    close  rounded  '
-  consonant: ''
-  ipa description: Near-close near-back rounded vowel
-  ipa name: Upsilon
-  ipa number: 321
-  lateral: ''
-  manner: ''
-  name: near-high near-back rounded vowel
-  near: near- near-
-  opening: close
-  place: ''
-  position: back
-  release: ''
-  rounding: rounded
-  sonority: 38.0
-  status: ''
-  symbol: "\u028A"
-  unicode name: LATIN SMALL LETTER UPSILON
-  usv: 028A
-  voice: ''
-  vowel: vowel
-- character: h
-  classes: 'consonant voiceless    glottal fricative    '
-  consonant: consonant
-  ipa description: Voiceless glottal fricative
-  ipa name: Lower-case H
-  ipa number: 146
-  lateral: ''
-  manner: fricative
-  name: voiceless glottal fricative
-  near: ''
-  opening: ''
-  place: glottal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: h
-  unicode name: LATIN SMALL LETTER H
-  usv: 0068
-  voice: voiceless
-  vowel: ''
-- character: "\xF8"
-  classes: '          '
-  consonant: ''
-  ipa description: Close-mid front rounded vowel
-  ipa name: Slashed O
-  ipa number: 310
-  lateral: ''
-  manner: ''
-  name: high-mid front rounded vowel
-  near: ''
-  opening: ''
-  place: ''
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 5.0
-  status: ''
-  symbol: "\xF8"
-  unicode name: LATIN SMALL LETTER O WITH STROKE
-  usv: 00F8
-  voice: ''
   vowel: ''
 - character: "\u028C"
   classes: '          '
@@ -900,6 +240,226 @@
   usv: 028C
   voice: ''
   vowel: ''
+- character: "\u0278"
+  classes: 'consonant voiceless  bilabial  fricative     '
+  consonant: consonant
+  ipa description: Voiceless bilabial fricative
+  ipa name: Phi
+  ipa number: 126
+  lateral: ''
+  manner: fricative
+  name: voiceless bilabial fricative
+  near: ''
+  opening: ''
+  place: bilabial
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\u0278"
+  unicode name: LATIN SMALL LETTER PHI
+  usv: 0278
+  voice: voiceless
+  vowel: ''
+- character: h
+  classes: 'consonant voiceless  glottal  fricative     '
+  consonant: consonant
+  ipa description: Voiceless glottal fricative
+  ipa name: Lower-case H
+  ipa number: 146
+  lateral: ''
+  manner: fricative
+  name: voiceless glottal fricative
+  near: ''
+  opening: ''
+  place: glottal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: h
+  unicode name: LATIN SMALL LETTER H
+  usv: 0068
+  voice: voiceless
+  vowel: ''
+- character: "\u0294"
+  classes: 'consonant  glottal  plosive      '
+  consonant: consonant
+  ipa description: Glottal plosive
+  ipa name: Glottal stop
+  ipa number: 113
+  lateral: ''
+  manner: plosive
+  name: glottal stop
+  near: ''
+  opening: ''
+  place: glottal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 9.5
+  status: ''
+  symbol: "\u0294"
+  unicode name: LATIN LETTER GLOTTAL STOP
+  usv: 0294
+  voice: ''
+  vowel: ''
+- character: i
+  classes: 'vowel     close front  unrounded  '
+  consonant: ''
+  ipa description: Close front unrounded vowel
+  ipa name: Lower-case I
+  ipa number: 301
+  lateral: ''
+  manner: ''
+  name: high front unrounded vowel
+  near: ''
+  opening: close
+  place: ''
+  position: front
+  release: ''
+  rounding: unrounded
+  sonority: 38.0
+  status: ''
+  symbol: i
+  unicode name: LATIN SMALL LETTER I
+  usv: 0069
+  voice: ''
+  vowel: vowel
+- character: q
+  classes: 'consonant voiceless  uvular  plosive     '
+  consonant: consonant
+  ipa description: Voiceless uvular plosive
+  ipa name: Lower-case Q
+  ipa number: 111
+  lateral: ''
+  manner: plosive
+  name: voiceless uvular stop
+  near: ''
+  opening: ''
+  place: uvular
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 11.5
+  status: ''
+  symbol: q
+  unicode name: LATIN SMALL LETTER Q
+  usv: '0071'
+  voice: voiceless
+  vowel: ''
+- character: "\u0265"
+  classes: '          '
+  consonant: ''
+  ipa description: Voiced labial-palatal approximant
+  ipa name: Turned H
+  ipa number: 171
+  lateral: ''
+  manner: ''
+  name: labial-palatal approximant
+  near: ''
+  opening: ''
+  place: ''
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 5.0
+  status: ''
+  symbol: "\u0265"
+  unicode name: LATIN SMALL LETTER TURNED H
+  usv: '0265'
+  voice: ''
+  vowel: ''
+- character: "\u0262"
+  classes: 'consonant voiced  uvular  plosive     '
+  consonant: consonant
+  ipa description: Voiced uvular plosive
+  ipa name: Small capital G
+  ipa number: 112
+  lateral: ''
+  manner: plosive
+  name: voiced uvular stop
+  near: ''
+  opening: ''
+  place: uvular
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.5
+  status: ''
+  symbol: "\u0262"
+  unicode name: LATIN LETTER SMALL CAPITAL G
+  usv: '0262'
+  voice: voiced
+  vowel: ''
+- character: b
+  classes: 'consonant voiced  bilabial  plosive     '
+  consonant: consonant
+  ipa description: Voiced bilabial plosive
+  ipa name: Lower-case B
+  ipa number: 102
+  lateral: ''
+  manner: plosive
+  name: voiced bilabial plosive
+  near: ''
+  opening: ''
+  place: bilabial
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.5
+  status: ''
+  symbol: b
+  unicode name: LATIN SMALL LETTER B
+  usv: '0062'
+  voice: voiced
+  vowel: ''
+- character: a
+  classes: 'vowel     open front  unrounded  '
+  consonant: ''
+  ipa description: Open front unrounded vowel
+  ipa name: Lower-case A
+  ipa number: 304
+  lateral: ''
+  manner: ''
+  name: low front unrounded vowel
+  near: ''
+  opening: open
+  place: ''
+  position: front
+  release: ''
+  rounding: unrounded
+  sonority: 42.0
+  status: ''
+  symbol: a
+  unicode name: LATIN SMALL LETTER A
+  usv: '0061'
+  voice: ''
+  vowel: vowel
+- character: "\u0270"
+  classes: 'consonant voiced  velar  approximant     '
+  consonant: consonant
+  ipa description: Voiced velar approximant
+  ipa name: Turned M, right Leg
+  ipa number: 154
+  lateral: ''
+  manner: approximant
+  name: velar approximant
+  near: ''
+  opening: ''
+  place: velar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 16.0
+  status: ''
+  symbol: "\u0270"
+  unicode name: LATIN SMALL LETTER TURNED M WITH LONG LEG
+  usv: '0270'
+  voice: voiced
+  vowel: ''
 - character: o
   classes: '          '
   consonant: ''
@@ -922,334 +482,26 @@
   usv: 006F
   voice: ''
   vowel: ''
-- character: "\u0273"
-  classes: 'consonant voiced    retroflex nasal    '
+- character: "\u014B"
+  classes: 'consonant voiced  velar  nasal     '
   consonant: consonant
-  ipa description: Voiced retroflex nasal
-  ipa name: Right-tail N
-  ipa number: 117
+  ipa description: Voiced velar nasal
+  ipa name: Eng
+  ipa number: 119
   lateral: ''
   manner: nasal
-  name: retroflex nasal
-  near: ''
-  opening: ''
-  place: retroflex
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.5
-  status: ''
-  symbol: "\u0273"
-  unicode name: LATIN SMALL LETTER N WITH RETROFLEX HOOK
-  usv: '0273'
-  voice: voiced
-  vowel: ''
-- character: g
-  classes: 'consonant voiced    velar plosive    '
-  consonant: consonant
-  ipa description: Voiced velar plosive
-  ipa name: Looptail G
-  ipa number: 210
-  lateral: ''
-  manner: plosive
-  name: voiced velar stop
+  name: velar nasal
   near: ''
   opening: ''
   place: velar
   position: ''
   release: ''
   rounding: ''
-  sonority: 12.5
-  status: Equivalent to 110
-  symbol: g
-  unicode name: LATIN SMALL LETTER G
-  usv: '0067'
-  voice: voiced
-  vowel: ''
-- character: "\u025B"
-  classes: '          '
-  consonant: ''
-  ipa description: Open-mid front unrounded vowel
-  ipa name: Epsilon
-  ipa number: 303
-  lateral: ''
-  manner: ''
-  name: low-mid front unrounded vowel
-  near: ''
-  opening: ''
-  place: ''
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 5.0
-  status: ''
-  symbol: "\u025B"
-  unicode name: LATIN SMALL LETTER OPEN E
-  usv: 025B
-  voice: ''
-  vowel: ''
-- character: "\xE7"
-  classes: 'consonant voiceless    palatal fricative    '
-  consonant: consonant
-  ipa description: Voiceless palatal fricative
-  ipa name: C cedilla
-  ipa number: 138
-  lateral: ''
-  manner: fricative
-  name: voiceless palatal fricative
-  near: ''
-  opening: ''
-  place: palatal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\xE7"
-  unicode name: LATIN SMALL LETTER C WITH CEDILLA
-  usv: 00E7
-  voice: voiceless
-  vowel: ''
-- character: l
-  classes: 'consonant voiced   lateral dental alveolar approximant    '
-  consonant: consonant
-  ipa description: Voiced dental or alveolar lateral approximant
-  ipa name: Lower-case L
-  ipa number: 155
-  lateral: lateral
-  manner: approximant
-  name: alveolar lateral approximant
-  near: ''
-  opening: ''
-  place: dental alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 21.5
-  status: ''
-  symbol: l
-  unicode name: LATIN SMALL LETTER L
-  usv: 006C
-  voice: voiced
-  vowel: ''
-- character: z
-  classes: 'consonant voiced    alveolar fricative    '
-  consonant: consonant
-  ipa description: Voiced alveolar fricative
-  ipa name: Lower-case Z
-  ipa number: 133
-  lateral: ''
-  manner: fricative
-  name: voiced alveolar sibilant
-  near: ''
-  opening: ''
-  place: alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: z
-  unicode name: LATIN SMALL LETTER Z
-  usv: 007A
-  voice: voiced
-  vowel: ''
-- character: a
-  classes: 'vowel front     open  unrounded  '
-  consonant: ''
-  ipa description: Open front unrounded vowel
-  ipa name: Lower-case A
-  ipa number: 304
-  lateral: ''
-  manner: ''
-  name: low front unrounded vowel
-  near: ''
-  opening: open
-  place: ''
-  position: front
-  release: ''
-  rounding: unrounded
-  sonority: 42.0
-  status: ''
-  symbol: a
-  unicode name: LATIN SMALL LETTER A
-  usv: '0061'
-  voice: ''
-  vowel: vowel
-- character: "\u0274"
-  classes: 'consonant voiced    uvular nasal    '
-  consonant: consonant
-  ipa description: Voiced uvular nasal
-  ipa name: Small capital N
-  ipa number: 120
-  lateral: ''
-  manner: nasal
-  name: uvular nasal
-  near: ''
-  opening: ''
-  place: uvular
-  position: ''
-  release: ''
-  rounding: ''
   sonority: 13.5
   status: ''
-  symbol: "\u0274"
-  unicode name: LATIN LETTER SMALL CAPITAL N
-  usv: '0274'
-  voice: voiced
-  vowel: ''
-- character: "\u0272"
-  classes: 'consonant voiced    palatal nasal    '
-  consonant: consonant
-  ipa description: Voiced palatal nasal
-  ipa name: Left-tail N (at left)
-  ipa number: 118
-  lateral: ''
-  manner: nasal
-  name: palatal nasal
-  near: ''
-  opening: ''
-  place: palatal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.5
-  status: ''
-  symbol: "\u0272"
-  unicode name: LATIN SMALL LETTER N WITH LEFT HOOK
-  usv: '0272'
-  voice: voiced
-  vowel: ''
-- character: "\u025F"
-  classes: 'consonant voiced    palatal plosive    '
-  consonant: consonant
-  ipa description: Voiced palatal plosive
-  ipa name: Barred dotless J
-  ipa number: 108
-  lateral: ''
-  manner: plosive
-  name: voiced palatal stop
-  near: ''
-  opening: ''
-  place: palatal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.5
-  status: ''
-  symbol: "\u025F"
-  unicode name: LATIN SMALL LETTER DOTLESS J WITH STROKE
-  usv: 025F
-  voice: voiced
-  vowel: ''
-- character: t
-  classes: 'consonant voiceless    dental alveolar plosive    '
-  consonant: consonant
-  ipa description: Voiceless dental or alveolar plosive
-  ipa name: Lower-case T
-  ipa number: 103
-  lateral: ''
-  manner: plosive
-  name: voiceless alveolar stop
-  near: ''
-  opening: ''
-  place: dental alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 11.5
-  status: ''
-  symbol: t
-  unicode name: LATIN SMALL LETTER T
-  usv: '0074'
-  voice: voiceless
-  vowel: ''
-- character: "\u03B2"
-  classes: 'consonant voiced    bilabial fricative    '
-  consonant: consonant
-  ipa description: Voiced bilabial fricative
-  ipa name: Beta
-  ipa number: 127
-  lateral: ''
-  manner: fricative
-  name: voiced bilabial fricative
-  near: ''
-  opening: ''
-  place: bilabial
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: "\u03B2"
-  unicode name: GREEK SMALL LETTER BETA
-  usv: 03B2
-  voice: voiced
-  vowel: ''
-- character: "\u0263"
-  classes: 'consonant voiced    velar fricative    '
-  consonant: consonant
-  ipa description: Voiced velar fricative
-  ipa name: Gamma
-  ipa number: 141
-  lateral: ''
-  manner: fricative
-  name: voiced velar fricative
-  near: ''
-  opening: ''
-  place: velar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 13.0
-  status: ''
-  symbol: "\u0263"
-  unicode name: LATIN SMALL LETTER GAMMA
-  usv: '0263'
-  voice: voiced
-  vowel: ''
-- character: "\u0127"
-  classes: 'consonant voiceless    pharyngeal fricative    '
-  consonant: consonant
-  ipa description: Voiceless pharyngeal fricative
-  ipa name: Barred H
-  ipa number: 144
-  lateral: ''
-  manner: fricative
-  name: voiceless pharyngeal fricative
-  near: ''
-  opening: ''
-  place: pharyngeal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: "\u0127"
-  unicode name: LATIN SMALL LETTER H WITH STROKE
-  usv: '0127'
-  voice: voiceless
-  vowel: ''
-- character: "\u0270"
-  classes: 'consonant voiced    velar approximant    '
-  consonant: consonant
-  ipa description: Voiced velar approximant
-  ipa name: Turned M, right Leg
-  ipa number: 154
-  lateral: ''
-  manner: approximant
-  name: velar approximant
-  near: ''
-  opening: ''
-  place: velar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 16.0
-  status: ''
-  symbol: "\u0270"
-  unicode name: LATIN SMALL LETTER TURNED M WITH LONG LEG
-  usv: '0270'
+  symbol: "\u014B"
+  unicode name: LATIN SMALL LETTER ENG
+  usv: 014B
   voice: voiced
   vowel: ''
 - character: "\u0259"
@@ -1274,96 +526,118 @@
   usv: 0259
   voice: ''
   vowel: ''
-- character: "\xE6"
-  classes: 'vowel near- front    open  unrounded  '
+- character: "\u026A"
+  classes: 'vowel near- near-    close front  unrounded  '
   consonant: ''
-  ipa description: Near-open front unrounded vowel
-  ipa name: Ash; Lower-case A-E ligature
-  ipa number: 325
+  ipa description: Near-close near-front unrounded vowel
+  ipa name: Small capital I
+  ipa number: 319
   lateral: ''
   manner: ''
-  name: near-low front unrounded vowel
-  near: near-
-  opening: open
+  name: near-high near-front unrounded vowel
+  near: near- near-
+  opening: close
   place: ''
   position: front
   release: ''
   rounding: unrounded
-  sonority: 42.0
+  sonority: 38.0
   status: ''
-  symbol: "\xE6"
-  unicode name: LATIN SMALL LETTER AE
-  usv: 00E6
+  symbol: "\u026A"
+  unicode name: LATIN LETTER SMALL CAPITAL I
+  usv: 026A
   voice: ''
   vowel: vowel
-- character: "\u0265"
-  classes: '          '
-  consonant: ''
-  ipa description: Voiced labial-palatal approximant
-  ipa name: Turned H
-  ipa number: 171
-  lateral: ''
-  manner: ''
-  name: labial-palatal approximant
-  near: ''
-  opening: ''
-  place: ''
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 5.0
-  status: ''
-  symbol: "\u0265"
-  unicode name: LATIN SMALL LETTER TURNED H
-  usv: '0265'
-  voice: ''
-  vowel: ''
-- character: d
-  classes: 'consonant voiced    dental alveolar plosive    '
+- character: "\u0274"
+  classes: 'consonant voiced  uvular  nasal     '
   consonant: consonant
-  ipa description: Voiced dental or alveolar plosive
-  ipa name: Lower-case D
-  ipa number: 104
+  ipa description: Voiced uvular nasal
+  ipa name: Small capital N
+  ipa number: 120
   lateral: ''
-  manner: plosive
-  name: voiced alveolar stop
-  near: ''
-  opening: ''
-  place: dental alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.5
-  status: ''
-  symbol: d
-  unicode name: LATIN SMALL LETTER D
-  usv: '0064'
-  voice: voiced
-  vowel: ''
-- character: "\u0262"
-  classes: 'consonant voiced    uvular plosive    '
-  consonant: consonant
-  ipa description: Voiced uvular plosive
-  ipa name: Small capital G
-  ipa number: 112
-  lateral: ''
-  manner: plosive
-  name: voiced uvular stop
+  manner: nasal
+  name: uvular nasal
   near: ''
   opening: ''
   place: uvular
   position: ''
   release: ''
   rounding: ''
-  sonority: 12.5
+  sonority: 13.5
   status: ''
-  symbol: "\u0262"
-  unicode name: LATIN LETTER SMALL CAPITAL G
-  usv: '0262'
+  symbol: "\u0274"
+  unicode name: LATIN LETTER SMALL CAPITAL N
+  usv: '0274'
+  voice: voiced
+  vowel: ''
+- character: y
+  classes: 'vowel     close front  rounded  '
+  consonant: ''
+  ipa description: Close front rounded vowel
+  ipa name: Lower-case Y
+  ipa number: 309
+  lateral: ''
+  manner: ''
+  name: high front rounded vowel
+  near: ''
+  opening: close
+  place: ''
+  position: front
+  release: ''
+  rounding: rounded
+  sonority: 38.0
+  status: ''
+  symbol: y
+  unicode name: LATIN SMALL LETTER Y
+  usv: 0079
+  voice: ''
+  vowel: vowel
+- character: "\u0273"
+  classes: 'consonant voiced  retroflex  nasal     '
+  consonant: consonant
+  ipa description: Voiced retroflex nasal
+  ipa name: Right-tail N
+  ipa number: 117
+  lateral: ''
+  manner: nasal
+  name: retroflex nasal
+  near: ''
+  opening: ''
+  place: retroflex
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.5
+  status: ''
+  symbol: "\u0273"
+  unicode name: LATIN SMALL LETTER N WITH RETROFLEX HOOK
+  usv: '0273'
+  voice: voiced
+  vowel: ''
+- character: "\u028B"
+  classes: 'consonant voiced  labiodental  approximant     '
+  consonant: consonant
+  ipa description: Voiced labiodental approximant
+  ipa name: Cursive V
+  ipa number: 150
+  lateral: ''
+  manner: approximant
+  name: labiodental approximant
+  near: ''
+  opening: ''
+  place: labiodental
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 16.0
+  status: ''
+  symbol: "\u028B"
+  unicode name: LATIN SMALL LETTER V WITH HOOK
+  usv: 028B
   voice: voiced
   vowel: ''
 - character: "\u029D"
-  classes: 'consonant voiced    palatal fricative    '
+  classes: 'consonant voiced  palatal  fricative     '
   consonant: consonant
   ipa description: Voiced palatal fricative
   ipa name: Curly-tail J
@@ -1384,96 +658,140 @@
   usv: 029D
   voice: voiced
   vowel: ''
-- character: r
-  classes: 'consonant voiced    dental alveolar trill    '
+- character: "\u0263"
+  classes: 'consonant voiced  velar  fricative     '
   consonant: consonant
-  ipa description: Voiced dental or alveolar trill
-  ipa name: Lower-case R
-  ipa number: 122
-  lateral: ''
-  manner: trill
-  name: alveolar trill
-  near: ''
-  opening: ''
-  place: dental alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 14.0
-  status: ''
-  symbol: r
-  unicode name: LATIN SMALL LETTER R
-  usv: '0072'
-  voice: voiced
-  vowel: ''
-- character: s
-  classes: 'consonant voiceless    alveolar fricative    '
-  consonant: consonant
-  ipa description: Voiceless alveolar fricative
-  ipa name: Lower-case S
-  ipa number: 132
+  ipa description: Voiced velar fricative
+  ipa name: Gamma
+  ipa number: 141
   lateral: ''
   manner: fricative
-  name: voiceless alveolar sibilant
-  near: ''
-  opening: ''
-  place: alveolar
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 12.0
-  status: ''
-  symbol: s
-  unicode name: LATIN SMALL LETTER S
-  usv: '0073'
-  voice: voiceless
-  vowel: ''
-- character: c
-  classes: 'consonant voiceless    palatal plosive    '
-  consonant: consonant
-  ipa description: Voiceless palatal plosive
-  ipa name: Lower-case C
-  ipa number: 107
-  lateral: ''
-  manner: plosive
-  name: voiceless palatal stop
-  near: ''
-  opening: ''
-  place: palatal
-  position: ''
-  release: ''
-  rounding: ''
-  sonority: 11.5
-  status: ''
-  symbol: c
-  unicode name: LATIN SMALL LETTER C
-  usv: '0063'
-  voice: voiceless
-  vowel: ''
-- character: k
-  classes: 'consonant voiceless    velar plosive    '
-  consonant: consonant
-  ipa description: Voiceless velar plosive
-  ipa name: Lower-case K
-  ipa number: 109
-  lateral: ''
-  manner: plosive
-  name: voiceless velar stop
+  name: voiced velar fricative
   near: ''
   opening: ''
   place: velar
   position: ''
   release: ''
   rounding: ''
-  sonority: 11.5
+  sonority: 13.0
   status: ''
-  symbol: k
-  unicode name: LATIN SMALL LETTER K
-  usv: 006B
+  symbol: "\u0263"
+  unicode name: LATIN SMALL LETTER GAMMA
+  usv: '0263'
+  voice: voiced
+  vowel: ''
+- character: "\u03B8"
+  classes: 'consonant voiceless  dental  fricative     '
+  consonant: consonant
+  ipa description: Voiceless dental fricative
+  ipa name: Theta
+  ipa number: 130
+  lateral: ''
+  manner: fricative
+  name: voiceless dental fricative
+  near: ''
+  opening: ''
+  place: dental
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\u03B8"
+  unicode name: GREEK SMALL LETTER THETA
+  usv: 03B8
   voice: voiceless
   vowel: ''
+- character: "\u028F"
+  classes: 'vowel near- near-    close front  rounded  '
+  consonant: ''
+  ipa description: Near-close near-front rounded vowel
+  ipa name: Small capital Y
+  ipa number: 320
+  lateral: ''
+  manner: ''
+  name: near-high near-front rounded vowel
+  near: near- near-
+  opening: close
+  place: ''
+  position: front
+  release: ''
+  rounding: rounded
+  sonority: 38.0
+  status: ''
+  symbol: "\u028F"
+  unicode name: LATIN LETTER SMALL CAPITAL Y
+  usv: 028F
+  voice: ''
+  vowel: vowel
+- character: p
+  classes: 'consonant voiceless  bilabial  plosive     '
+  consonant: consonant
+  ipa description: Voiceless bilabial plosive
+  ipa name: Lower-case P
+  ipa number: 101
+  lateral: ''
+  manner: plosive
+  name: voiceless bilabial plosive
+  near: ''
+  opening: ''
+  place: bilabial
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 11.5
+  status: ''
+  symbol: p
+  unicode name: LATIN SMALL LETTER P
+  usv: '0070'
+  voice: voiceless
+  vowel: ''
+- character: "\u0255"
+  classes: 'consonant voiceless  alveolo-palatal  fricative     '
+  consonant: consonant
+  ipa description: Voiceless alveolo-palatal fricative
+  ipa name: Curly-tail C
+  ipa number: 182
+  lateral: ''
+  manner: fricative
+  name: voiceless alveolo-palatal sibilant
+  near: ''
+  opening: ''
+  place: alveolo-palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\u0255"
+  unicode name: LATIN SMALL LETTER C WITH CURL
+  usv: '0255'
+  voice: voiceless
+  vowel: ''
+- character: "\u0281"
+  classes: 'consonant voiced  uvular  fricative     '
+  consonant: consonant
+  ipa description: Voiced uvular fricative
+  ipa name: Inverted small capital R
+  ipa number: 143
+  lateral: ''
+  manner: fricative
+  name: voiced uvular fricative
+  near: ''
+  opening: ''
+  place: uvular
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.0
+  status: ''
+  symbol: "\u0281"
+  unicode name: LATIN LETTER SMALL CAPITAL INVERTED R
+  usv: 0281
+  voice: voiced
+  vowel: ''
 - character: n
-  classes: 'consonant voiced    dental alveolar nasal    '
+  classes: 'consonant voiced  dental alveolar  nasal     '
   consonant: consonant
   ipa description: Voiced dental or alveolar nasal
   ipa name: Lower-case N
@@ -1494,25 +812,707 @@
   usv: 006E
   voice: voiced
   vowel: ''
-- character: v
-  classes: 'consonant voiced    labiodental fricative    '
+- character: j
+  classes: 'consonant voiced  palatal  approximant     '
   consonant: consonant
-  ipa description: Voiced labiodental fricative
-  ipa name: Lower-case V
-  ipa number: 129
+  ipa description: Voiced palatal approximant
+  ipa name: Lower-case J
+  ipa number: 153
+  lateral: ''
+  manner: approximant
+  name: palatal approximant
+  near: ''
+  opening: ''
+  place: palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 16.0
+  status: ''
+  symbol: j
+  unicode name: LATIN SMALL LETTER J
+  usv: 006A
+  voice: voiced
+  vowel: ''
+- character: g
+  classes: 'consonant voiced  velar  plosive     '
+  consonant: consonant
+  ipa description: Voiced velar plosive
+  ipa name: Looptail G
+  ipa number: 210
+  lateral: ''
+  manner: plosive
+  name: voiced velar stop
+  near: ''
+  opening: ''
+  place: velar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.5
+  status: Equivalent to 110
+  symbol: g
+  unicode name: LATIN SMALL LETTER G
+  usv: '0067'
+  voice: voiced
+  vowel: ''
+- character: "\u028A"
+  classes: 'vowel near- near-    close back  rounded  '
+  consonant: ''
+  ipa description: Near-close near-back rounded vowel
+  ipa name: Upsilon
+  ipa number: 321
+  lateral: ''
+  manner: ''
+  name: near-high near-back rounded vowel
+  near: near- near-
+  opening: close
+  place: ''
+  position: back
+  release: ''
+  rounding: rounded
+  sonority: 38.0
+  status: ''
+  symbol: "\u028A"
+  unicode name: LATIN SMALL LETTER UPSILON
+  usv: 028A
+  voice: ''
+  vowel: vowel
+- character: k
+  classes: 'consonant voiceless  velar  plosive     '
+  consonant: consonant
+  ipa description: Voiceless velar plosive
+  ipa name: Lower-case K
+  ipa number: 109
+  lateral: ''
+  manner: plosive
+  name: voiceless velar stop
+  near: ''
+  opening: ''
+  place: velar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 11.5
+  status: ''
+  symbol: k
+  unicode name: LATIN SMALL LETTER K
+  usv: 006B
+  voice: voiceless
+  vowel: ''
+- character: s
+  classes: 'consonant voiceless  alveolar  fricative     '
+  consonant: consonant
+  ipa description: Voiceless alveolar fricative
+  ipa name: Lower-case S
+  ipa number: 132
   lateral: ''
   manner: fricative
-  name: voiced labiodental fricative
+  name: voiceless alveolar sibilant
+  near: ''
+  opening: ''
+  place: alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: s
+  unicode name: LATIN SMALL LETTER S
+  usv: '0073'
+  voice: voiceless
+  vowel: ''
+- character: "\u0295"
+  classes: 'consonant voiced  pharyngeal  fricative approximant     '
+  consonant: consonant
+  ipa description: Voiced pharyngeal fricative or approximant
+  ipa name: Reversed glottal stop
+  ipa number: 145
+  lateral: ''
+  manner: fricative approximant
+  name: voiced pharyngeal fricative
+  near: ''
+  opening: ''
+  place: pharyngeal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 16.33
+  status: ''
+  symbol: "\u0295"
+  unicode name: LATIN LETTER PHARYNGEAL VOICED FRICATIVE
+  usv: 0295
+  voice: voiced
+  vowel: ''
+- character: c
+  classes: 'consonant voiceless  palatal  plosive     '
+  consonant: consonant
+  ipa description: Voiceless palatal plosive
+  ipa name: Lower-case C
+  ipa number: 107
+  lateral: ''
+  manner: plosive
+  name: voiceless palatal stop
+  near: ''
+  opening: ''
+  place: palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 11.5
+  status: ''
+  symbol: c
+  unicode name: LATIN SMALL LETTER C
+  usv: '0063'
+  voice: voiceless
+  vowel: ''
+- character: m
+  classes: 'consonant voiced  bilabial  nasal     '
+  consonant: consonant
+  ipa description: Voiced bilabial nasal
+  ipa name: Lower-case M
+  ipa number: 114
+  lateral: ''
+  manner: nasal
+  name: bilabial nasal
+  near: ''
+  opening: ''
+  place: bilabial
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.5
+  status: ''
+  symbol: m
+  unicode name: LATIN SMALL LETTER M
+  usv: 006D
+  voice: voiced
+  vowel: ''
+- character: "\u0127"
+  classes: 'consonant voiceless  pharyngeal  fricative     '
+  consonant: consonant
+  ipa description: Voiceless pharyngeal fricative
+  ipa name: Barred H
+  ipa number: 144
+  lateral: ''
+  manner: fricative
+  name: voiceless pharyngeal fricative
+  near: ''
+  opening: ''
+  place: pharyngeal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\u0127"
+  unicode name: LATIN SMALL LETTER H WITH STROKE
+  usv: '0127'
+  voice: voiceless
+  vowel: ''
+- character: "\u0291"
+  classes: 'consonant voiced  alveolo-palatal  fricative     '
+  consonant: consonant
+  ipa description: Voiced alveolo-palatal fricative
+  ipa name: Curly-tail Z
+  ipa number: 183
+  lateral: ''
+  manner: fricative
+  name: voiced alveolo-palatal sibilant
+  near: ''
+  opening: ''
+  place: alveolo-palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.0
+  status: ''
+  symbol: "\u0291"
+  unicode name: LATIN SMALL LETTER Z WITH CURL
+  usv: 0291
+  voice: voiced
+  vowel: ''
+- character: "\u025B"
+  classes: '          '
+  consonant: ''
+  ipa description: Open-mid front unrounded vowel
+  ipa name: Epsilon
+  ipa number: 303
+  lateral: ''
+  manner: ''
+  name: low-mid front unrounded vowel
+  near: ''
+  opening: ''
+  place: ''
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 5.0
+  status: ''
+  symbol: "\u025B"
+  unicode name: LATIN SMALL LETTER OPEN E
+  usv: 025B
+  voice: ''
+  vowel: ''
+- character: f
+  classes: 'consonant voiceless  labiodental  fricative     '
+  consonant: consonant
+  ipa description: Voiceless labiodental fricative
+  ipa name: Lower-case F
+  ipa number: 128
+  lateral: ''
+  manner: fricative
+  name: voiceless labiodental fricative
   near: ''
   opening: ''
   place: labiodental
   position: ''
   release: ''
   rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: f
+  unicode name: LATIN SMALL LETTER F
+  usv: '0066'
+  voice: voiceless
+  vowel: ''
+- character: "\u0254"
+  classes: '          '
+  consonant: ''
+  ipa description: Open-mid back rounded vowel
+  ipa name: Open O
+  ipa number: 306
+  lateral: ''
+  manner: ''
+  name: low-mid back rounded vowel
+  near: ''
+  opening: ''
+  place: ''
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 5.0
+  status: ''
+  symbol: "\u0254"
+  unicode name: LATIN SMALL LETTER OPEN O
+  usv: '0254'
+  voice: ''
+  vowel: ''
+- character: "\xF8"
+  classes: '          '
+  consonant: ''
+  ipa description: Close-mid front rounded vowel
+  ipa name: Slashed O
+  ipa number: 310
+  lateral: ''
+  manner: ''
+  name: high-mid front rounded vowel
+  near: ''
+  opening: ''
+  place: ''
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 5.0
+  status: ''
+  symbol: "\xF8"
+  unicode name: LATIN SMALL LETTER O WITH STROKE
+  usv: 00F8
+  voice: ''
+  vowel: ''
+- character: "\xF0"
+  classes: 'consonant voiced  dental  fricative     '
+  consonant: consonant
+  ipa description: Voiced dental fricative
+  ipa name: Eth
+  ipa number: 131
+  lateral: ''
+  manner: fricative
+  name: voiced dental fricative
+  near: ''
+  opening: ''
+  place: dental
+  position: ''
+  release: ''
+  rounding: ''
   sonority: 13.0
   status: ''
-  symbol: v
-  unicode name: LATIN SMALL LETTER V
-  usv: '0076'
+  symbol: "\xF0"
+  unicode name: LATIN SMALL LETTER ETH
+  usv: 00F0
   voice: voiced
+  vowel: ''
+- character: u
+  classes: 'vowel     close back  rounded  '
+  consonant: ''
+  ipa description: Close back rounded vowel
+  ipa name: Lower-case U
+  ipa number: 308
+  lateral: ''
+  manner: ''
+  name: high back rounded vowel
+  near: ''
+  opening: close
+  place: ''
+  position: back
+  release: ''
+  rounding: rounded
+  sonority: 38.0
+  status: ''
+  symbol: u
+  unicode name: LATIN SMALL LETTER U
+  usv: '0075'
+  voice: ''
+  vowel: vowel
+- character: "\u025F"
+  classes: 'consonant voiced  palatal  plosive     '
+  consonant: consonant
+  ipa description: Voiced palatal plosive
+  ipa name: Barred dotless J
+  ipa number: 108
+  lateral: ''
+  manner: plosive
+  name: voiced palatal stop
+  near: ''
+  opening: ''
+  place: palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.5
+  status: ''
+  symbol: "\u025F"
+  unicode name: LATIN SMALL LETTER DOTLESS J WITH STROKE
+  usv: 025F
+  voice: voiced
+  vowel: ''
+- character: "\u027E"
+  classes: 'consonant voiced  dental alveolar  tap     '
+  consonant: consonant
+  ipa description: Voiced dental or alveolar tap
+  ipa name: Fish-hook R
+  ipa number: 124
+  lateral: ''
+  manner: tap
+  name: alveolar flap
+  near: ''
+  opening: ''
+  place: dental alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 15.0
+  status: ''
+  symbol: "\u027E"
+  unicode name: LATIN SMALL LETTER R WITH FISHHOOK
+  usv: 027E
+  voice: voiced
+  vowel: ''
+- character: "\xE6"
+  classes: 'vowel near-    open front  unrounded  '
+  consonant: ''
+  ipa description: Near-open front unrounded vowel
+  ipa name: Ash; Lower-case A-E ligature
+  ipa number: 325
+  lateral: ''
+  manner: ''
+  name: near-low front unrounded vowel
+  near: near-
+  opening: open
+  place: ''
+  position: front
+  release: ''
+  rounding: unrounded
+  sonority: 42.0
+  status: ''
+  symbol: "\xE6"
+  unicode name: LATIN SMALL LETTER AE
+  usv: 00E6
+  voice: ''
+  vowel: vowel
+- character: "\u0272"
+  classes: 'consonant voiced  palatal  nasal     '
+  consonant: consonant
+  ipa description: Voiced palatal nasal
+  ipa name: Left-tail N (at left)
+  ipa number: 118
+  lateral: ''
+  manner: nasal
+  name: palatal nasal
+  near: ''
+  opening: ''
+  place: palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.5
+  status: ''
+  symbol: "\u0272"
+  unicode name: LATIN SMALL LETTER N WITH LEFT HOOK
+  usv: '0272'
+  voice: voiced
+  vowel: ''
+- character: e
+  classes: '          '
+  consonant: ''
+  ipa description: Close-mid front unrounded vowel
+  ipa name: Lower-case E
+  ipa number: 302
+  lateral: ''
+  manner: ''
+  name: high-mid front unrounded vowel
+  near: ''
+  opening: ''
+  place: ''
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 5.0
+  status: ''
+  symbol: e
+  unicode name: LATIN SMALL LETTER E
+  usv: '0065'
+  voice: ''
+  vowel: ''
+- character: d
+  classes: 'consonant voiced  dental alveolar  plosive     '
+  consonant: consonant
+  ipa description: Voiced dental or alveolar plosive
+  ipa name: Lower-case D
+  ipa number: 104
+  lateral: ''
+  manner: plosive
+  name: voiced alveolar stop
+  near: ''
+  opening: ''
+  place: dental alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.5
+  status: ''
+  symbol: d
+  unicode name: LATIN SMALL LETTER D
+  usv: '0064'
+  voice: voiced
+  vowel: ''
+- character: "\u026F"
+  classes: 'vowel     close back  unrounded  '
+  consonant: ''
+  ipa description: Close back unrounded vowel
+  ipa name: Turned M
+  ipa number: 316
+  lateral: ''
+  manner: ''
+  name: high back unrounded vowel
+  near: ''
+  opening: close
+  place: ''
+  position: back
+  release: ''
+  rounding: unrounded
+  sonority: 38.0
+  status: ''
+  symbol: "\u026F"
+  unicode name: LATIN SMALL LETTER TURNED M
+  usv: 026F
+  voice: ''
+  vowel: vowel
+- character: "\u0280"
+  classes: 'consonant voiced  uvular  trill     '
+  consonant: consonant
+  ipa description: Voiced uvular trill
+  ipa name: Small capital R
+  ipa number: 123
+  lateral: ''
+  manner: trill
+  name: uvular trill
+  near: ''
+  opening: ''
+  place: uvular
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 14.0
+  status: ''
+  symbol: "\u0280"
+  unicode name: LATIN LETTER SMALL CAPITAL R
+  usv: 0280
+  voice: voiced
+  vowel: ''
+- character: "\u03B2"
+  classes: 'consonant voiced  bilabial  fricative     '
+  consonant: consonant
+  ipa description: Voiced bilabial fricative
+  ipa name: Beta
+  ipa number: 127
+  lateral: ''
+  manner: fricative
+  name: voiced bilabial fricative
+  near: ''
+  opening: ''
+  place: bilabial
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.0
+  status: ''
+  symbol: "\u03B2"
+  unicode name: GREEK SMALL LETTER BETA
+  usv: 03B2
+  voice: voiced
+  vowel: ''
+- character: "\u03C7"
+  classes: 'consonant voiceless  uvular  fricative     '
+  consonant: consonant
+  ipa description: Voiceless uvular fricative
+  ipa name: Chi
+  ipa number: 142
+  lateral: ''
+  manner: fricative
+  name: voiceless uvular fricative
+  near: ''
+  opening: ''
+  place: uvular
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\u03C7"
+  unicode name: GREEK SMALL LETTER CHI
+  usv: 03C7
+  voice: voiceless
+  vowel: ''
+- character: "\u0266"
+  classes: 'consonant voiced  glottal  fricative     '
+  consonant: consonant
+  ipa description: Voiced glottal fricative
+  ipa name: Hooktop H
+  ipa number: 147
+  lateral: ''
+  manner: fricative
+  name: voiced glottal fricative
+  near: ''
+  opening: ''
+  place: glottal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 13.0
+  status: ''
+  symbol: "\u0266"
+  unicode name: LATIN SMALL LETTER H WITH HOOK
+  usv: '0266'
+  voice: voiced
+  vowel: ''
+- character: "\u026C"
+  classes: 'consonant voiceless  dental alveolar  fricative    lateral '
+  consonant: consonant
+  ipa description: Voiceless dental or alveolar lateral fricative
+  ipa name: Belted L
+  ipa number: 148
+  lateral: lateral
+  manner: fricative
+  name: voiceless alveolar lateral fricative
+  near: ''
+  opening: ''
+  place: dental alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 17.5
+  status: ''
+  symbol: "\u026C"
+  unicode name: LATIN SMALL LETTER L WITH BELT
+  usv: 026C
+  voice: voiceless
+  vowel: ''
+- character: "\u028E"
+  classes: 'consonant voiced  palatal  approximant    lateral '
+  consonant: consonant
+  ipa description: Voiced palatal lateral approximant
+  ipa name: Turned Y
+  ipa number: 157
+  lateral: lateral
+  manner: approximant
+  name: palatal lateral approximant
+  near: ''
+  opening: ''
+  place: palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 21.5
+  status: ''
+  symbol: "\u028E"
+  unicode name: LATIN SMALL LETTER TURNED Y
+  usv: 028E
+  voice: voiced
+  vowel: ''
+- character: l
+  classes: 'consonant voiced  dental alveolar  approximant    lateral '
+  consonant: consonant
+  ipa description: Voiced dental or alveolar lateral approximant
+  ipa name: Lower-case L
+  ipa number: 155
+  lateral: lateral
+  manner: approximant
+  name: alveolar lateral approximant
+  near: ''
+  opening: ''
+  place: dental alveolar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 21.5
+  status: ''
+  symbol: l
+  unicode name: LATIN SMALL LETTER L
+  usv: 006C
+  voice: voiced
+  vowel: ''
+- character: "\xE7"
+  classes: 'consonant voiceless  palatal  fricative     '
+  consonant: consonant
+  ipa description: Voiceless palatal fricative
+  ipa name: C cedilla
+  ipa number: 138
+  lateral: ''
+  manner: fricative
+  name: voiceless palatal fricative
+  near: ''
+  opening: ''
+  place: palatal
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: "\xE7"
+  unicode name: LATIN SMALL LETTER C WITH CEDILLA
+  usv: 00E7
+  voice: voiceless
+  vowel: ''
+- character: x
+  classes: 'consonant voiceless  velar  fricative     '
+  consonant: consonant
+  ipa description: Voiceless velar fricative
+  ipa name: Lower-case X
+  ipa number: 140
+  lateral: ''
+  manner: fricative
+  name: voiceless velar fricative
+  near: ''
+  opening: ''
+  place: velar
+  position: ''
+  release: ''
+  rounding: ''
+  sonority: 12.0
+  status: ''
+  symbol: x
+  unicode name: LATIN SMALL LETTER X
+  usv: 0078
+  voice: voiceless
   vowel: ''
