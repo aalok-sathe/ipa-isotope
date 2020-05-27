@@ -97,6 +97,18 @@ $('.ui-group').packery({
     percentPosition: true
 })
 
+// collection of Draggabillies
+var draggies = [];
+var isDrag = false;
+
+// make all grid-items draggable
+$grid.find('.phoneme-item').each( function( i, gridItem ) {
+  var draggie = new Draggabilly( gridItem );
+  draggies.push( draggie );
+  // bind drag events to Packery
+  $grid.isotope( 'bindDraggabillyEvents', draggie );
+});
+
 
 // utils ----------------
 
