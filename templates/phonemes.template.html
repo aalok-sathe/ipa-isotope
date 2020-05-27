@@ -3,53 +3,51 @@
 <html>
 
 <body>
-  <h1>IPAtope</h1>
-  <h2>Filter</h2>
-  <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show all</button>
-    {% for filter in filters %}
-    {% include "filter.template.html" with context %}
-    {% endfor %}
-    <!-- <button class="button" data-filter=".metal">metal</button> -->
-    <!-- <button class="button" data-filter=".transition">transition</button> -->
-    <!-- <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button> -->
-    <!-- <button class="button" data-filter=":not(.transition)">not transition</button> -->
-    <!-- <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
-    <!-- <button class="button" data-filter="numberGreaterThan50">number > 50</button> -->
-    <!-- <button class="button" data-filter="ium">name ends with &ndash;ium</button> -->
-  </div>
+    <h1>IPAtope</h1>
+    <h3>Filter</h3>
 
-  <h2>Sort</h2>
-  <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
-    <button class="button" data-sort-by="name">name</button>
-    <button class="button" data-sort-by="symbol">symbol</button>
-    <button class="button" data-sort-by="sonority">sonority</button>
-    <!-- <button class="button" data-sort-by="category">category</button> -->
-  </div>
+    <div class="filters">
 
+        {% for group, filters in filtergroups.items() %}
+        <div class="ui-group">
+            <div class="ui-group-item button-group-label" style="float: left;"><label> {{group}} </label></div>
+            <div class="button-group" data-filter-group="{{ group }}">
+                <button class="ui-group-item button is-checked" data-filter="*">all</button>
+                {% for filter in filters %}
+                {% include "filter.template.html" with context %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
 
-  <div class="grid">
-    {% for phoneme in phonemes %}
-    {% include "phoneme.template.html" with context %}
-    {% endfor %}
-    <!-- <div class="phoneme-item post-transition metal " data-category="post-transition">
-      <h3 class="name">Thallium</h3>
-      <p class="symbol">Tl</p>
-      <p class="number">81</p>
-      <p class="weight">204.383</p>
     </div>
-    <div class="phoneme-item actinoid metal inner-transition " data-category="actinoid">
-      <h3 class="name">Uranium</h3>
-      <p class="symbol">U</p>
-      <p class="number">92</p>
-      <p class="weight">238.029</p>
+
+    <h3>Sort</h3>
+
+    <div class="sorters">
+        <div class="ui-group">
+            <div class="ui-group-item button-group-label" style="float: left;"><label> Sort key </label></div>
+            <div class="button-group" data-filter-group="{{ group }}">
+                <button class="ui-group-item button is-checked" data-sort-by="original-order">all</button>
+                {% for sorter in sorters %}
+                {% include "sorter.template.html" with context %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
-    <div class="phoneme-item actinoid metal inner-transition " data-category="actinoid">
-      <h3 class="name">Plutonium</h3>
-      <p class="symbol">Pu</p>
-      <p class="number">94</p>
-      <p class="weight">(244)</p>
+
+    <!-- <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
+        <button class="button" data-sort-by="name">name</button>
+        <button class="button" data-sort-by="symbol">symbol</button>
+        <button class="button" data-sort-by="sonority">sonority</button>
+        <button class="button" data-sort-by="category">category</button>
     </div> -->
-  </div>
+
+    <div class="grid">
+        {% for phoneme in phonemes %}
+        {% include "phoneme.template.html" with context %}
+        {% endfor %}
+    </div>
 
 
 </body>

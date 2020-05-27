@@ -7,33 +7,30 @@ body {
 
 /* ---- button ---- */
 
-.button {
-  display: inline-block;
-  padding: 0.5em 1.0em;
-  background: #EEE;
-  border: none;
-  border-radius: 7px;
-  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
-  color: #222;
-  font-family: sans-serif;
-  font-size: 16px;
-  text-shadow: 0 1px white;
+.button-group > .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 1;
+  margin-right: 1;
+  background-color: #E0FFFF;
+  border: 1px solid black;
+  color: black;
   cursor: pointer;
 }
 
-.button:hover {
+.button-group > .button:hover {
   background-color: #8CF;
   text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
   color: #222;
 }
 
-.button:active,
-.button.is-checked {
+.button-group > .button:active {
   background-color: #28F;
 }
 
-.button.is-checked {
+.button-group > .button.is-checked {
   color: white;
+  background-color: #00008B;
   text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
 }
 
@@ -44,7 +41,8 @@ body {
 /* ---- button-group ---- */
 
 .button-group {
-  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
 }
 
 .button-group:after {
@@ -53,12 +51,10 @@ body {
   clear: both;
 }
 
-.button-group .button {
-  float: left;
-  border-radius: 0;
-  margin-left: 0;
-  margin-right: 1px;
-}
+/* .button-group-label {
+    width: 8%;
+} */
+
 
 .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
 .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
@@ -104,8 +100,8 @@ body {
 }
 
 .phoneme-item > * {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
 }
 
 .phoneme-item .name {
@@ -119,7 +115,7 @@ body {
   font-weight: normal;
 }
 
-.phoneme-item .voicing {
+.phoneme-item .voice {
   position: absolute;
 
   left: 10px;
@@ -161,12 +157,6 @@ body {
   color: white;
 }
 
-.phoneme-item .number {
-  position: absolute;
-  right: 8px;
-  top: 5px;
-}
-
 .phoneme-item .weight {
   position: absolute;
   left: 10px;
@@ -181,7 +171,7 @@ body {
 }
 
 /* coloring all at first such that unknowns get color too */
-.phoneme-item                 { background: #F08; background: hsl( 324, 100%, 50%); }
+.phoneme-item                        { background: #F08; background: hsl( 324, 100%, 50%); }
 .phoneme-item.plosive, .stop         { background: #F00; background: hsl(   0, 100%, 50%); }
 .phoneme-item.fricative, .affricate, .sibilant       { background: #F80; background: hsl(  36, 100%, 50%); }
 .phoneme-item.nasal           { background: #FF0; background: hsl(  72, 100%, 50%); }

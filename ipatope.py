@@ -13,29 +13,29 @@ jinja_env = Environment(loader=FileSystemLoader('templates'),
 template = jinja_env.get_template('phonemes.template.html')
 
 
-class Phoneme:
-    def __init__(self, **kwargs):
-        for key, value in kwargs.items():
-            setattr(self, key, value)
-
-
-class Filter:
+class AttrObject:
     def __init__(self, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
 
 
 with (DATA / 'phonemes.yaml').open('r') as fp:
-    phonemes = [Phoneme(**ph) for ph in yaml.load(fp, Loader=yaml.Loader)]
+    phonemes = [AttrObject(**ph)
+                for ph in yaml.load(fp, Loader=yaml.Loader)]
+
+with (DATA / 'filters.yaml').open('r') as fp:
+    fgrps = {grp: [AttrObject(**fil) for fil in fils]
+                   for grp, fils in yaml.load(fp, Loader=yaml.Loader).items()}
+
+with (DATA / 'sorters.yaml').open('r') as fp:
+    sorters = [AttrObject(**sor)
+             for sor in yaml.load(fp, Loader=yaml.Loader)]
 
 data = dict(
     phonemes=phonemes,
+    filtergroups=fgrps,
+    sorters=sorters,
 )
-
-with (DATA / 'filters.yaml').open('r') as fp:
-    filters = [Filter(**fil) for fil in yaml.load(fp, Loader=yaml.Loader)]
-
-data.update(dict(filters=filters))
 
 with Path('index.html').open('w') as out:
     out.write(template.render(**data))

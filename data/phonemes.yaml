@@ -1,5 +1,7 @@
-- classes: 'consonant voiceless   stop     alveolar '
+- aspiration: ''
+  classes: 'consonant voiceless  stop    alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiceless alveolar stop
@@ -11,25 +13,31 @@
   rounding: ''
   sonority: 5.74
   symbol: t
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: '          '
-  consonant: ''
+- aspiration: ''
+  classes: 'consonant ejective  stop   voiceless  alveolar     '
+  consonant: consonant
+  ejective: ejective
   lateral: ''
-  manner: ''
+  manner: stop
   name: ejective voiceless alveolar stop
   near: ''
   opening: ''
-  place: ''
+  place: alveolar
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.57
+  sonority: 5.74
   symbol: "t\u02BC"
-  voice: ''
+  tendency: ''
+  voice: voiceless
   vowel: ''
-- classes: 'consonant   stop     alveolar voiceless '
+- aspiration: aspirated
+  classes: 'consonant aspirated  stop  voiceless  alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: aspirated voiceless alveolar stop
@@ -41,10 +49,13 @@
   rounding: ''
   sonority: 5.74
   symbol: "t\u02B0"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant   stop     alveolar voiceless '
+- aspiration: ''
+  classes: 'consonant palatalised  stop   voiceless  alveolar     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: palatalised voiceless alveolar stop
@@ -56,10 +67,13 @@
   rounding: ''
   sonority: 5.74
   symbol: "t\u02B2"
+  tendency: palatalised
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   stop     alveolar '
+- aspiration: ''
+  classes: 'consonant voiced  stop    alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiced alveolar stop
@@ -71,10 +85,13 @@
   rounding: ''
   sonority: 5.77
   symbol: d
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant   stop     alveolar voiced '
+- aspiration: ''
+  classes: 'consonant palatalised  stop   voiced  alveolar     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: palatalised voiced alveolar stop
@@ -86,10 +103,13 @@
   rounding: ''
   sonority: 5.77
   symbol: "d\u02B2"
+  tendency: palatalised
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   sibilant     alveolar '
+- aspiration: ''
+  classes: 'consonant voiceless  sibilant    alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: voiceless alveolar sibilant
@@ -101,10 +121,13 @@
   rounding: ''
   sonority: 5.8
   symbol: s
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   sibilant     alveolar '
+- aspiration: ''
+  classes: 'consonant voiced  sibilant    alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: voiced alveolar sibilant
@@ -116,10 +139,13 @@
   rounding: ''
   sonority: 5.83
   symbol: z
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative lateral    alveolar '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative  lateral  alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: lateral
   manner: fricative
   name: voiceless alveolar lateral fricative
@@ -131,10 +157,13 @@
   rounding: ''
   sonority: 7.01
   symbol: "\u026C"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative lateral    alveolar '
+- aspiration: ''
+  classes: 'consonant voiced  fricative  lateral  alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: lateral
   manner: fricative
   name: voiced alveolar lateral fricative
@@ -146,10 +175,13 @@
   rounding: ''
   sonority: 7.03
   symbol: "\u026E"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     dental '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    dental      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless dental fricative
@@ -161,10 +193,13 @@
   rounding: ''
   sonority: 5.79
   symbol: "\u03B8"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     dental '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    dental      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced dental fricative
@@ -176,10 +211,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\xF0"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   sibilant     palato-alveolar '
+- aspiration: ''
+  classes: 'consonant voiceless  sibilant    palato-alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: voiceless palato-alveolar sibilant
@@ -191,10 +229,13 @@
   rounding: ''
   sonority: 5.8
   symbol: "\u0283"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiceless   sibilant     alveolo-palatal '
+- aspiration: ''
+  classes: 'consonant voiceless  sibilant    alveolo-palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: voiceless alveolo-palatal sibilant
@@ -206,10 +247,13 @@
   rounding: ''
   sonority: 5.8
   symbol: "\u0255"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant   sibilant     palato-alveolar voiceless '
+- aspiration: ''
+  classes: 'consonant palatalised  sibilant   voiceless  palato-alveolar     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: palatalised voiceless palato-alveolar sibilant
@@ -221,10 +265,13 @@
   rounding: ''
   sonority: 5.8
   symbol: "\u0283\u02B2"
+  tendency: palatalised
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   sibilant     palato-alveolar '
+- aspiration: ''
+  classes: 'consonant voiced  sibilant    palato-alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: voiced palato-alveolar sibilant
@@ -236,10 +283,13 @@
   rounding: ''
   sonority: 5.83
   symbol: "\u0292"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiced   sibilant     alveolo-palatal '
+- aspiration: ''
+  classes: 'consonant voiced  sibilant    alveolo-palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: sibilant
   name: voiced alveolo-palatal sibilant
@@ -251,10 +301,13 @@
   rounding: ''
   sonority: 5.83
   symbol: "\u0291"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   stop     palatal '
+- aspiration: ''
+  classes: 'consonant voiceless  stop    palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiceless palatal stop
@@ -266,10 +319,13 @@
   rounding: ''
   sonority: 5.74
   symbol: c
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   stop     palatal '
+- aspiration: ''
+  classes: 'consonant voiced  stop    palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiced palatal stop
@@ -281,10 +337,13 @@
   rounding: ''
   sonority: 5.77
   symbol: "\u025F"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     palatal '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless palatal fricative
@@ -296,10 +355,13 @@
   rounding: ''
   sonority: 5.79
   symbol: "\xE7"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     palatal '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced palatal fricative
@@ -311,10 +373,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u029D"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   plosive     bilabial '
+- aspiration: ''
+  classes: 'consonant voiceless  plosive    bilabial      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: plosive
   name: voiceless bilabial plosive
@@ -326,10 +391,13 @@
   rounding: ''
   sonority: 5.76
   symbol: p
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   plosive     bilabial '
+- aspiration: ''
+  classes: 'consonant voiced  plosive    bilabial      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: plosive
   name: voiced bilabial plosive
@@ -341,10 +409,13 @@
   rounding: ''
   sonority: 5.79
   symbol: b
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant   plosive     bilabial voiced '
+- aspiration: aspirated
+  classes: 'consonant aspirated  plosive  voiced  bilabial      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: plosive
   name: aspirated voiced bilabial plosive
@@ -356,10 +427,13 @@
   rounding: ''
   sonority: 5.79
   symbol: "b\u02B0"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     labiodental '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    labiodental      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless labiodental fricative
@@ -371,10 +445,13 @@
   rounding: ''
   sonority: 5.79
   symbol: f
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     labiodental '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    labiodental      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced labiodental fricative
@@ -386,10 +463,13 @@
   rounding: ''
   sonority: 5.81
   symbol: v
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     bilabial '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    bilabial      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless bilabial fricative
@@ -401,10 +481,13 @@
   rounding: ''
   sonority: 5.79
   symbol: "\u0278"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     bilabial '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    bilabial      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced bilabial fricative
@@ -416,10 +499,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u03B2"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   stop     velar '
+- aspiration: ''
+  classes: 'consonant voiceless  stop    velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiceless velar stop
@@ -431,10 +517,13 @@
   rounding: ''
   sonority: 5.74
   symbol: k
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: '          '
+- aspiration: ''
+  classes: '             '
   consonant: ''
+  ejective: ''
   lateral: ''
   manner: ''
   name: voiceless labialised velar stop
@@ -446,10 +535,13 @@
   rounding: ''
   sonority: 3.57
   symbol: "k\u02B7"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant voiceless   stop     velar '
+- aspiration: aspirated
+  classes: 'consonant voiceless  stop aspirated   velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiceless aspirated velar stop
@@ -461,10 +553,13 @@
   rounding: ''
   sonority: 5.74
   symbol: "k\u02B0"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant   stop     velar voiceless '
+- aspiration: ''
+  classes: 'consonant palatalised  stop   voiceless  velar     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: palatalised voiceless velar stop
@@ -476,10 +571,13 @@
   rounding: ''
   sonority: 5.74
   symbol: "k\u02B2"
+  tendency: palatalised
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   stop     velar '
+- aspiration: ''
+  classes: 'consonant voiced  stop    velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiced velar stop
@@ -491,10 +589,13 @@
   rounding: ''
   sonority: 5.77
   symbol: g
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     velar '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless velar fricative
@@ -506,10 +607,13 @@
   rounding: ''
   sonority: 5.79
   symbol: x
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     velar '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced velar fricative
@@ -521,10 +625,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0263"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   stop     uvular '
+- aspiration: ''
+  classes: 'consonant voiceless  stop    uvular      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiceless uvular stop
@@ -536,10 +643,13 @@
   rounding: ''
   sonority: 5.74
   symbol: q
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   stop     uvular '
+- aspiration: ''
+  classes: 'consonant voiced  stop    uvular      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: voiced uvular stop
@@ -551,10 +661,13 @@
   rounding: ''
   sonority: 5.77
   symbol: "\u0262"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     uvular '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    uvular      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless uvular fricative
@@ -566,10 +679,13 @@
   rounding: ''
   sonority: 5.79
   symbol: "\u03C7"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     uvular '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    uvular      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced uvular fricative
@@ -581,10 +697,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0281"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     pharyngeal '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    pharyngeal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless pharyngeal fricative
@@ -596,10 +715,13 @@
   rounding: ''
   sonority: 5.79
   symbol: "\u0127"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     pharyngeal '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    pharyngeal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced pharyngeal fricative
@@ -611,10 +733,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0295"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   fricative     glottal '
+- aspiration: ''
+  classes: 'consonant voiceless  fricative    glottal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiceless glottal fricative
@@ -626,10 +751,13 @@
   rounding: ''
   sonority: 5.79
   symbol: h
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   fricative     glottal '
+- aspiration: ''
+  classes: 'consonant voiced  fricative    glottal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: fricative
   name: voiced glottal fricative
@@ -641,10 +769,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0266"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant   stop     glottal  '
+- aspiration: ''
+  classes: 'consonant  stop     glottal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: stop
   name: glottal stop
@@ -656,10 +787,13 @@
   rounding: ''
   sonority: 5.74
   symbol: "\u0294"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant voiceless   affricate     palato-alveolar '
+- aspiration: ''
+  classes: 'consonant voiceless  affricate    palato-alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: affricate
   name: voiceless palato-alveolar affricate
@@ -671,10 +805,13 @@
   rounding: ''
   sonority: 5.77
   symbol: "t\u0283"
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   affricate     palato-alveolar '
+- aspiration: ''
+  classes: 'consonant voiced  affricate    palato-alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: affricate
   name: voiced palato-alveolar affricate
@@ -686,10 +823,13 @@
   rounding: ''
   sonority: 5.8
   symbol: "d\u0292"
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   affricate     alveolar '
+- aspiration: ''
+  classes: 'consonant voiceless  affricate    alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: affricate
   name: voiceless alveolar affricate
@@ -701,10 +841,13 @@
   rounding: ''
   sonority: 5.77
   symbol: ts
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced   affricate     alveolar '
+- aspiration: ''
+  classes: 'consonant voiced  affricate    alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: affricate
   name: voiced alveolar affricate
@@ -716,10 +859,13 @@
   rounding: ''
   sonority: 5.8
   symbol: dz
+  tendency: ''
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless   affricate     velar '
+- aspiration: ''
+  classes: 'consonant voiceless  affricate    velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: affricate
   name: voiceless velar affricate
@@ -731,10 +877,13 @@
   rounding: ''
   sonority: 5.77
   symbol: kx
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiceless   affricate     labiodental '
+- aspiration: ''
+  classes: 'consonant voiceless  affricate    labiodental      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: affricate
   name: voiceless labiodental affricate
@@ -746,10 +895,13 @@
   rounding: ''
   sonority: 5.77
   symbol: pf
+  tendency: ''
   voice: voiceless
   vowel: ''
-- classes: 'consonant   nasal     bilabial  '
+- aspiration: ''
+  classes: 'consonant  nasal     bilabial      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: nasal
   name: bilabial nasal
@@ -761,10 +913,13 @@
   rounding: ''
   sonority: 5.81
   symbol: m
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   nasal     alveolar  '
+- aspiration: ''
+  classes: 'consonant  nasal     alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: nasal
   name: alveolar nasal
@@ -776,10 +931,13 @@
   rounding: ''
   sonority: 5.81
   symbol: n
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   nasal     velar  '
+- aspiration: ''
+  classes: 'consonant  nasal     velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: nasal
   name: velar nasal
@@ -791,10 +949,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u014B"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   nasal     retroflex  '
+- aspiration: ''
+  classes: 'consonant  nasal     retroflex      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: nasal
   name: retroflex nasal
@@ -806,10 +967,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0273"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   nasal     palatal  '
+- aspiration: ''
+  classes: 'consonant  nasal     palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: nasal
   name: palatal nasal
@@ -821,10 +985,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0272"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   nasal     uvular  '
+- aspiration: ''
+  classes: 'consonant  nasal     uvular      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: nasal
   name: uvular nasal
@@ -836,10 +1003,13 @@
   rounding: ''
   sonority: 5.81
   symbol: "\u0274"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant lateral    alveolar  '
+- aspiration: ''
+  classes: 'consonant  approximant  lateral   alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: lateral
   manner: approximant
   name: alveolar lateral approximant
@@ -851,10 +1021,13 @@
   rounding: ''
   sonority: 7.08
   symbol: l
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant lateral    alveolar  '
+- aspiration: ''
+  classes: 'consonant palatalised  approximant  lateral   alveolar     '
   consonant: consonant
+  ejective: ''
   lateral: lateral
   manner: approximant
   name: palatalised alveolar lateral approximant
@@ -866,10 +1039,13 @@
   rounding: ''
   sonority: 7.08
   symbol: "l\u02B2"
+  tendency: palatalised
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant lateral    palatal  '
+- aspiration: ''
+  classes: 'consonant  approximant  lateral   palatal      '
   consonant: consonant
+  ejective: ''
   lateral: lateral
   manner: approximant
   name: palatal lateral approximant
@@ -881,10 +1057,13 @@
   rounding: ''
   sonority: 7.08
   symbol: "\u028E"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   trill     alveolar  '
+- aspiration: ''
+  classes: 'consonant  trill     alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: trill
   name: alveolar trill
@@ -896,10 +1075,13 @@
   rounding: ''
   sonority: 5.83
   symbol: r
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   trill     alveolar  '
+- aspiration: ''
+  classes: 'consonant palatalised  trill     alveolar     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: trill
   name: palatalised alveolar trill
@@ -911,10 +1093,13 @@
   rounding: ''
   sonority: 5.83
   symbol: "r\u02B2"
+  tendency: palatalised
   voice: ''
   vowel: ''
-- classes: 'consonant   flap     alveolar  '
+- aspiration: ''
+  classes: 'consonant  flap     alveolar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: flap
   name: alveolar flap
@@ -926,10 +1111,13 @@
   rounding: ''
   sonority: 5.87
   symbol: "\u027E"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   flap     alveolar  '
+- aspiration: ''
+  classes: 'consonant palatalised  flap     alveolar     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: flap
   name: palatalised alveolar flap
@@ -941,10 +1129,13 @@
   rounding: ''
   sonority: 5.87
   symbol: "\u027E\u02B2"
+  tendency: palatalised
   voice: ''
   vowel: ''
-- classes: 'consonant   trill     uvular  '
+- aspiration: ''
+  classes: 'consonant  trill     uvular      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: trill
   name: uvular trill
@@ -956,10 +1147,13 @@
   rounding: ''
   sonority: 5.83
   symbol: "\u0280"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant     palatal  '
+- aspiration: ''
+  classes: 'consonant  approximant     palatal      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: approximant
   name: palatal approximant
@@ -971,10 +1165,13 @@
   rounding: ''
   sonority: 5.88
   symbol: j
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant     labiovelar  '
+- aspiration: ''
+  classes: 'consonant  approximant     labiovelar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: approximant
   name: labiovelar approximant
@@ -986,10 +1183,13 @@
   rounding: ''
   sonority: 5.88
   symbol: w
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant     labiodental  '
+- aspiration: ''
+  classes: 'consonant  approximant     labiodental      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: approximant
   name: labiodental approximant
@@ -1001,10 +1201,13 @@
   rounding: ''
   sonority: 5.88
   symbol: "\u028B"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant     labiodental  '
+- aspiration: ''
+  classes: 'consonant palatalised  approximant     labiodental     '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: approximant
   name: palatalised labiodental approximant
@@ -1016,10 +1219,13 @@
   rounding: ''
   sonority: 5.88
   symbol: "\u028B\u02B2"
+  tendency: palatalised
   voice: ''
   vowel: ''
-- classes: '          '
+- aspiration: ''
+  classes: '             '
   consonant: ''
+  ejective: ''
   lateral: ''
   manner: ''
   name: labial-palatal approximant
@@ -1031,10 +1237,13 @@
   rounding: ''
   sonority: 3.57
   symbol: "\u0265"
+  tendency: ''
   voice: ''
   vowel: ''
-- classes: 'consonant   approximant     velar  '
+- aspiration: ''
+  classes: 'consonant  approximant     velar      '
   consonant: consonant
+  ejective: ''
   lateral: ''
   manner: approximant
   name: velar approximant
@@ -1046,11 +1255,14 @@
   rounding: ''
   sonority: 5.88
   symbol: "\u0270"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 0.0
-  classes: vowel      unrounded high   front
+- aspiration: ''
+  backness: 0.0
+  classes: 'vowel unrounded       high front    '
   consonant: ''
+  ejective: ''
   height: 1.0
   lateral: ''
   manner: ''
@@ -1065,11 +1277,14 @@
   rounding: unrounded
   sonority: 21.03
   symbol: i
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.25
-  classes: vowel near- near-     unrounded high   front
+- aspiration: ''
+  backness: 0.25
+  classes: 'vowel near- near- unrounded       high front   '
   consonant: ''
+  ejective: ''
   height: 0.875
   lateral: ''
   manner: ''
@@ -1084,11 +1299,14 @@
   rounding: unrounded
   sonority: 21.03
   symbol: "\u026A"
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.5
-  classes: vowel      unrounded high   central
+- aspiration: ''
+  backness: 0.5
+  classes: 'vowel unrounded       high central    '
   consonant: ''
+  ejective: ''
   height: 1.0
   lateral: ''
   manner: ''
@@ -1103,11 +1321,14 @@
   rounding: unrounded
   sonority: 21.03
   symbol: "\u0268"
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 1.0
-  classes: vowel      rounded high   back
+- aspiration: ''
+  backness: 1.0
+  classes: 'vowel rounded       high back    '
   consonant: ''
+  ejective: ''
   height: 1.0
   lateral: ''
   manner: ''
@@ -1122,11 +1343,14 @@
   rounding: rounded
   sonority: 21.03
   symbol: u
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.75
-  classes: vowel near- near-     rounded high   back
+- aspiration: ''
+  backness: 0.75
+  classes: 'vowel near- near- rounded       high back   '
   consonant: ''
+  ejective: ''
   height: 0.875
   lateral: ''
   manner: ''
@@ -1141,11 +1365,14 @@
   rounding: rounded
   sonority: 21.03
   symbol: "\u028A"
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.0
-  classes: '          '
+- aspiration: ''
+  backness: 0.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.75
   lateral: ''
   manner: ''
@@ -1160,11 +1387,14 @@
   rounding: ''
   sonority: 3.57
   symbol: e
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 0.0
-  classes: '          '
+- aspiration: ''
+  backness: 0.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.75
   lateral: ''
   manner: ''
@@ -1179,11 +1409,14 @@
   rounding: ''
   sonority: 3.57
   symbol: "\u1EBD"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 0.0
-  classes: '          '
+- aspiration: ''
+  backness: 0.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.25
   lateral: ''
   manner: ''
@@ -1198,11 +1431,14 @@
   rounding: ''
   sonority: 3.57
   symbol: "\u025B"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 1.0
-  classes: '          '
+- aspiration: ''
+  backness: 1.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.75
   lateral: ''
   manner: ''
@@ -1217,11 +1453,14 @@
   rounding: ''
   sonority: 3.57
   symbol: o
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 1.0
-  classes: '          '
+- aspiration: ''
+  backness: 1.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.25
   lateral: ''
   manner: ''
@@ -1236,11 +1475,14 @@
   rounding: ''
   sonority: 3.57
   symbol: "\u0254"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 1.0
-  classes: '          '
+- aspiration: ''
+  backness: 1.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.25
   lateral: ''
   manner: ''
@@ -1255,11 +1497,14 @@
   rounding: ''
   sonority: 3.57
   symbol: "\u028C"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 0.0
-  classes: vowel      unrounded low   front
+- aspiration: ''
+  backness: 0.0
+  classes: 'vowel unrounded       low front    '
   consonant: ''
+  ejective: ''
   height: 0.0
   lateral: ''
   manner: ''
@@ -1274,11 +1519,14 @@
   rounding: unrounded
   sonority: 21.01
   symbol: a
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.0
-  classes: vowel near-     unrounded low   front
+- aspiration: ''
+  backness: 0.0
+  classes: 'vowel near- unrounded       low front   '
   consonant: ''
+  ejective: ''
   height: 0.125
   lateral: ''
   manner: ''
@@ -1293,11 +1541,14 @@
   rounding: unrounded
   sonority: 21.01
   symbol: "\xE6"
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.0
-  classes: vowel      rounded high   front
+- aspiration: ''
+  backness: 0.0
+  classes: 'vowel rounded       high front    '
   consonant: ''
+  ejective: ''
   height: 1.0
   lateral: ''
   manner: ''
@@ -1312,11 +1563,14 @@
   rounding: rounded
   sonority: 21.03
   symbol: y
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.25
-  classes: vowel near- near-     rounded high   front
+- aspiration: ''
+  backness: 0.25
+  classes: 'vowel near- near- rounded       high front   '
   consonant: ''
+  ejective: ''
   height: 0.875
   lateral: ''
   manner: ''
@@ -1331,11 +1585,14 @@
   rounding: rounded
   sonority: 21.03
   symbol: "\u028F"
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 0.0
-  classes: '          '
+- aspiration: ''
+  backness: 0.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.75
   lateral: ''
   manner: ''
@@ -1350,11 +1607,14 @@
   rounding: ''
   sonority: 3.57
   symbol: "\xF8"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 0.0
-  classes: '          '
+- aspiration: ''
+  backness: 0.0
+  classes: '             '
   consonant: ''
+  ejective: ''
   height: 0.25
   lateral: ''
   manner: ''
@@ -1369,11 +1629,14 @@
   rounding: ''
   sonority: 3.57
   symbol: "\u0153"
+  tendency: ''
   voice: ''
   vowel: ''
-- backness: 0.5
-  classes: vowel      unrounded mid   central
+- aspiration: ''
+  backness: 0.5
+  classes: 'vowel unrounded       mid central    '
   consonant: ''
+  ejective: ''
   height: 0.5
   lateral: ''
   manner: ''
@@ -1388,11 +1651,14 @@
   rounding: unrounded
   sonority: 21.02
   symbol: "\u0259"
+  tendency: ''
   voice: ''
   vowel: vowel
-- backness: 1.0
-  classes: vowel      unrounded high   back
+- aspiration: ''
+  backness: 1.0
+  classes: 'vowel unrounded       high back    '
   consonant: ''
+  ejective: ''
   height: 1.0
   lateral: ''
   manner: ''
@@ -1407,5 +1673,6 @@
   rounding: unrounded
   sonority: 21.03
   symbol: "\u026F"
+  tendency: ''
   voice: ''
   vowel: vowel

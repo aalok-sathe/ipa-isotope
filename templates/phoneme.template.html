@@ -4,10 +4,13 @@
   <!-- <h3 class="name">{{ phoneme.name }}</h3> -->
   <p class="symbol">{{ phoneme.symbol }}</p>
   <p class="sonority">{{ phoneme.sonority }}</p>
+  <p class="name">{{ phoneme.name }}</p>
   {% if phoneme.consonant %}
-  <p class="voicing">{{ phoneme.voice }}</p>
-  <p class="place">{{ phoneme.place }}</p>
-  <p class="manner">{{ phoneme.lateral }} {{ phoneme.manner }}</p>
+      <!-- <p class="aspiration">{{ phoneme.aspiration or '' }}</p>
+      <p class="voice">{{ phoneme.voice or '' }}</p>
+      <p class="tendency">{{ phoneme.tendency or '' }}</p>
+      <p class="place">{{ phoneme.place }}</p>
+      <p class="manner">{{ phoneme.lateral }} {{ phoneme.manner }}</p> -->
   {% else %}
   {% endif %}
 </div>

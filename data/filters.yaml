@@ -1,30 +1,42 @@
-- func: .voiced
-  text: voiced
-- func: .voiceless
-  text: voiceless
-- func: .stop
-  text: stop
-- func: .plosive
-  text: plosive
-- func: .velar
-  text: velar
-- func: .nasal
-  text: nasal
-- func: .trill
-  text: trill
-- func: .tap
-  text: tap
-- func: .flap
-  text: flap
-- func: .fricative
-  text: fricative
-- func: .affricate
-  text: affricate
-- func: .sibilant
-  text: sibilant
-- func: .approximant
-  text: approximant
-- func: .vowel
-  text: vowel
-- func: sonGreaterThan3
-  text: sonority > 3
+voicing:
+    - text: voiced
+      fn:   .voiced,.vowel
+    - text: voiceless
+      fn:   .voiceless
+place:
+    - text: glottal
+      fn:   .glottal
+    - text: velar
+      fn:   .velar
+    - text: uvular
+      fn:   .uvular
+    - text: alveolar
+      fn:   .alveolar,.postalveolar,.alveolo-palatal,.palato-alveolar
+    - text: palatal
+      fn:   .palatal,.palato-alveolar,.alveolo-palatar,.palatalised,.labial-palatal
+    - text: labial
+      fn:   .labial,.bilabial,.labiodental,.labiovelar,.labial-palatal
+    - text: dental
+      fn:   .dental,.labiodental
+    - text: nasal
+      fn:   .nasal
+manner:
+    - text: stop/plosive
+      fn:   .stop,.plosive
+    - text: trill
+      fn:   .trill
+    - text: tap or flap
+      fn:   .tap,.flap
+    - text: fricative
+      fn:   .fricative
+    - text: affricate
+      fn:   .affricate
+    - text: sibilant
+      fn:   .sibilant
+    - text: approximant
+      fn:   .approximant
+    - text: vowel
+      fn:   .vowel
+properties:
+    - text: sonority > 3
+      fn:   sonGreaterThan3
