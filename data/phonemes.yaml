@@ -1,4 +1,4 @@
-- classes: 'consonant voiceless stop    alveolar    '
+- classes: 'consonant voiceless   stop     alveolar '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -9,7 +9,7 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: t
   voice: voiceless
   vowel: ''
@@ -24,11 +24,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "t\u02BC"
   voice: ''
   vowel: ''
-- classes: 'consonant stop    alveolar  voiceless   '
+- classes: 'consonant   stop     alveolar voiceless '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -39,11 +39,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: "t\u02B0"
   voice: voiceless
   vowel: ''
-- classes: 'consonant stop    alveolar  voiceless   '
+- classes: 'consonant   stop     alveolar voiceless '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -54,11 +54,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: "t\u02B2"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced stop    alveolar    '
+- classes: 'consonant voiced   stop     alveolar '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -69,11 +69,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: d
   voice: voiced
   vowel: ''
-- classes: 'consonant stop    alveolar  voiced   '
+- classes: 'consonant   stop     alveolar voiced '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -84,11 +84,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: "d\u02B2"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless sibilant    alveolar    '
+- classes: 'consonant voiceless   sibilant     alveolar '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -99,11 +99,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.61
+  sonority: 5.8
   symbol: s
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced sibilant    alveolar    '
+- classes: 'consonant voiced   sibilant     alveolar '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -114,11 +114,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.83
   symbol: z
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    alveolar  lateral  '
+- classes: 'consonant voiceless   fricative lateral    alveolar '
   consonant: consonant
   lateral: lateral
   manner: fricative
@@ -129,11 +129,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 4.36
+  sonority: 7.01
   symbol: "\u026C"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    alveolar  lateral  '
+- classes: 'consonant voiced   fricative lateral    alveolar '
   consonant: consonant
   lateral: lateral
   manner: fricative
@@ -144,11 +144,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 4.47
+  sonority: 7.03
   symbol: "\u026E"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    dental    '
+- classes: 'consonant voiceless   fricative     dental '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -159,11 +159,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: "\u03B8"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    dental    '
+- classes: 'consonant voiced   fricative     dental '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -174,11 +174,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\xF0"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless sibilant    palato-alveolar    '
+- classes: 'consonant voiceless   sibilant     palato-alveolar '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -189,11 +189,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.61
+  sonority: 5.8
   symbol: "\u0283"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiceless sibilant    alveolo-palatal    '
+- classes: 'consonant voiceless   sibilant     alveolo-palatal '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -204,11 +204,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.61
+  sonority: 5.8
   symbol: "\u0255"
   voice: voiceless
   vowel: ''
-- classes: 'consonant sibilant    palato-alveolar  voiceless   '
+- classes: 'consonant   sibilant     palato-alveolar voiceless '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -219,11 +219,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.61
+  sonority: 5.8
   symbol: "\u0283\u02B2"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced sibilant    palato-alveolar    '
+- classes: 'consonant voiced   sibilant     palato-alveolar '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -234,11 +234,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.83
   symbol: "\u0292"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiced sibilant    alveolo-palatal    '
+- classes: 'consonant voiced   sibilant     alveolo-palatal '
   consonant: consonant
   lateral: ''
   manner: sibilant
@@ -249,11 +249,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.83
   symbol: "\u0291"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless stop    palatal    '
+- classes: 'consonant voiceless   stop     palatal '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -264,11 +264,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: c
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced stop    palatal    '
+- classes: 'consonant voiced   stop     palatal '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -279,11 +279,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: "\u025F"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    palatal    '
+- classes: 'consonant voiceless   fricative     palatal '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -294,11 +294,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: "\xE7"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    palatal    '
+- classes: 'consonant voiced   fricative     palatal '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -309,11 +309,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\u029D"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless plosive    bilabial    '
+- classes: 'consonant voiceless   plosive     bilabial '
   consonant: consonant
   lateral: ''
   manner: plosive
@@ -324,11 +324,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.76
   symbol: p
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced plosive    bilabial    '
+- classes: 'consonant voiced   plosive     bilabial '
   consonant: consonant
   lateral: ''
   manner: plosive
@@ -339,11 +339,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: b
   voice: voiced
   vowel: ''
-- classes: 'consonant plosive    bilabial  voiced   '
+- classes: 'consonant   plosive     bilabial voiced '
   consonant: consonant
   lateral: ''
   manner: plosive
@@ -354,11 +354,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: "b\u02B0"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    labiodental    '
+- classes: 'consonant voiceless   fricative     labiodental '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -369,11 +369,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: f
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    labiodental    '
+- classes: 'consonant voiced   fricative     labiodental '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -384,11 +384,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: v
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    bilabial    '
+- classes: 'consonant voiceless   fricative     bilabial '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -399,11 +399,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: "\u0278"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    bilabial    '
+- classes: 'consonant voiced   fricative     bilabial '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -414,11 +414,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\u03B2"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless stop    velar    '
+- classes: 'consonant voiceless   stop     velar '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -429,7 +429,7 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: k
   voice: voiceless
   vowel: ''
@@ -444,11 +444,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "k\u02B7"
   voice: ''
   vowel: ''
-- classes: 'consonant voiceless stop    velar    '
+- classes: 'consonant voiceless   stop     velar '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -459,11 +459,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: "k\u02B0"
   voice: voiceless
   vowel: ''
-- classes: 'consonant stop    velar  voiceless   '
+- classes: 'consonant   stop     velar voiceless '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -474,11 +474,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: "k\u02B2"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced stop    velar    '
+- classes: 'consonant voiced   stop     velar '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -489,11 +489,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: g
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    velar    '
+- classes: 'consonant voiceless   fricative     velar '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -504,11 +504,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: x
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    velar    '
+- classes: 'consonant voiced   fricative     velar '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -519,11 +519,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\u0263"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless stop    uvular    '
+- classes: 'consonant voiceless   stop     uvular '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -534,11 +534,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.32
+  sonority: 5.74
   symbol: q
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced stop    uvular    '
+- classes: 'consonant voiced   stop     uvular '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -549,11 +549,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: "\u0262"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    uvular    '
+- classes: 'consonant voiceless   fricative     uvular '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -564,11 +564,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: "\u03C7"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    uvular    '
+- classes: 'consonant voiced   fricative     uvular '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -579,11 +579,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\u0281"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    pharyngeal    '
+- classes: 'consonant voiceless   fricative     pharyngeal '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -594,11 +594,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: "\u0127"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    pharyngeal    '
+- classes: 'consonant voiced   fricative     pharyngeal '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -609,11 +609,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\u0295"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless fricative    glottal    '
+- classes: 'consonant voiceless   fricative     glottal '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -624,11 +624,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.54
+  sonority: 5.79
   symbol: h
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced fricative    glottal    '
+- classes: 'consonant voiced   fricative     glottal '
   consonant: consonant
   lateral: ''
   manner: fricative
@@ -639,11 +639,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.81
   symbol: "\u0266"
   voice: voiced
   vowel: ''
-- classes: 'consonant stop    glottal     '
+- classes: 'consonant   stop     glottal  '
   consonant: consonant
   lateral: ''
   manner: stop
@@ -654,11 +654,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.0
+  sonority: 5.74
   symbol: "\u0294"
   voice: ''
   vowel: ''
-- classes: 'consonant voiceless affricate    palato-alveolar    '
+- classes: 'consonant voiceless   affricate     palato-alveolar '
   consonant: consonant
   lateral: ''
   manner: affricate
@@ -669,11 +669,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: "t\u0283"
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced affricate    palato-alveolar    '
+- classes: 'consonant voiced   affricate     palato-alveolar '
   consonant: consonant
   lateral: ''
   manner: affricate
@@ -684,11 +684,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.61
+  sonority: 5.8
   symbol: "d\u0292"
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless affricate    alveolar    '
+- classes: 'consonant voiceless   affricate     alveolar '
   consonant: consonant
   lateral: ''
   manner: affricate
@@ -699,11 +699,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: ts
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiced affricate    alveolar    '
+- classes: 'consonant voiced   affricate     alveolar '
   consonant: consonant
   lateral: ''
   manner: affricate
@@ -714,11 +714,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.61
+  sonority: 5.8
   symbol: dz
   voice: voiced
   vowel: ''
-- classes: 'consonant voiceless affricate    velar    '
+- classes: 'consonant voiceless   affricate     velar '
   consonant: consonant
   lateral: ''
   manner: affricate
@@ -729,11 +729,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: kx
   voice: voiceless
   vowel: ''
-- classes: 'consonant voiceless affricate    labiodental    '
+- classes: 'consonant voiceless   affricate     labiodental '
   consonant: consonant
   lateral: ''
   manner: affricate
@@ -744,11 +744,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.77
   symbol: pf
   voice: voiceless
   vowel: ''
-- classes: 'consonant nasal    bilabial     '
+- classes: 'consonant   nasal     bilabial  '
   consonant: consonant
   lateral: ''
   manner: nasal
@@ -759,11 +759,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.81
   symbol: m
   voice: ''
   vowel: ''
-- classes: 'consonant nasal    alveolar     '
+- classes: 'consonant   nasal     alveolar  '
   consonant: consonant
   lateral: ''
   manner: nasal
@@ -774,11 +774,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.81
   symbol: n
   voice: ''
   vowel: ''
-- classes: 'consonant nasal    velar     '
+- classes: 'consonant   nasal     velar  '
   consonant: consonant
   lateral: ''
   manner: nasal
@@ -789,11 +789,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.81
   symbol: "\u014B"
   voice: ''
   vowel: ''
-- classes: 'consonant nasal    retroflex     '
+- classes: 'consonant   nasal     retroflex  '
   consonant: consonant
   lateral: ''
   manner: nasal
@@ -804,11 +804,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.81
   symbol: "\u0273"
   voice: ''
   vowel: ''
-- classes: 'consonant nasal    palatal     '
+- classes: 'consonant   nasal     palatal  '
   consonant: consonant
   lateral: ''
   manner: nasal
@@ -819,11 +819,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.81
   symbol: "\u0272"
   voice: ''
   vowel: ''
-- classes: 'consonant nasal    uvular     '
+- classes: 'consonant   nasal     uvular  '
   consonant: consonant
   lateral: ''
   manner: nasal
@@ -834,11 +834,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.39
+  sonority: 5.81
   symbol: "\u0274"
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    alveolar   lateral  '
+- classes: 'consonant   approximant lateral    alveolar  '
   consonant: consonant
   lateral: lateral
   manner: approximant
@@ -849,11 +849,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 4.53
+  sonority: 7.08
   symbol: l
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    alveolar   lateral  '
+- classes: 'consonant   approximant lateral    alveolar  '
   consonant: consonant
   lateral: lateral
   manner: approximant
@@ -864,11 +864,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 4.53
+  sonority: 7.08
   symbol: "l\u02B2"
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    palatal   lateral  '
+- classes: 'consonant   approximant lateral    palatal  '
   consonant: consonant
   lateral: lateral
   manner: approximant
@@ -879,11 +879,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 4.53
+  sonority: 7.08
   symbol: "\u028E"
   voice: ''
   vowel: ''
-- classes: 'consonant trill    alveolar     '
+- classes: 'consonant   trill     alveolar  '
   consonant: consonant
   lateral: ''
   manner: trill
@@ -894,11 +894,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.83
   symbol: r
   voice: ''
   vowel: ''
-- classes: 'consonant trill    alveolar     '
+- classes: 'consonant   trill     alveolar  '
   consonant: consonant
   lateral: ''
   manner: trill
@@ -909,11 +909,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.83
   symbol: "r\u02B2"
   voice: ''
   vowel: ''
-- classes: 'consonant flap    alveolar     '
+- classes: 'consonant   flap     alveolar  '
   consonant: consonant
   lateral: ''
   manner: flap
@@ -924,11 +924,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.87
   symbol: "\u027E"
   voice: ''
   vowel: ''
-- classes: 'consonant flap    alveolar     '
+- classes: 'consonant   flap     alveolar  '
   consonant: consonant
   lateral: ''
   manner: flap
@@ -939,11 +939,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.67
+  sonority: 5.87
   symbol: "\u027E\u02B2"
   voice: ''
   vowel: ''
-- classes: 'consonant trill    uvular     '
+- classes: 'consonant   trill     uvular  '
   consonant: consonant
   lateral: ''
   manner: trill
@@ -954,11 +954,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.46
+  sonority: 5.83
   symbol: "\u0280"
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    palatal     '
+- classes: 'consonant   approximant     palatal  '
   consonant: consonant
   lateral: ''
   manner: approximant
@@ -969,11 +969,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.88
   symbol: j
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    labiovelar     '
+- classes: 'consonant   approximant     labiovelar  '
   consonant: consonant
   lateral: ''
   manner: approximant
@@ -984,11 +984,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.88
   symbol: w
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    labiodental     '
+- classes: 'consonant   approximant     labiodental  '
   consonant: consonant
   lateral: ''
   manner: approximant
@@ -999,11 +999,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.88
   symbol: "\u028B"
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    labiodental     '
+- classes: 'consonant   approximant     labiodental  '
   consonant: consonant
   lateral: ''
   manner: approximant
@@ -1014,7 +1014,7 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.88
   symbol: "\u028B\u02B2"
   voice: ''
   vowel: ''
@@ -1029,11 +1029,11 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\u0265"
   voice: ''
   vowel: ''
-- classes: 'consonant approximant    velar     '
+- classes: 'consonant   approximant     velar  '
   consonant: consonant
   lateral: ''
   manner: approximant
@@ -1044,12 +1044,12 @@
   position: ''
   release: ''
   rounding: ''
-  sonority: 3.74
+  sonority: 5.88
   symbol: "\u0270"
   voice: ''
   vowel: ''
 - backness: 0.0
-  classes: vowel   unrounded high      front
+  classes: vowel      unrounded high   front
   consonant: ''
   height: 1.0
   lateral: ''
@@ -1063,12 +1063,12 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: i
   voice: ''
   vowel: vowel
 - backness: 0.25
-  classes: vowel near- near-   unrounded high     front
+  classes: vowel near- near-     unrounded high   front
   consonant: ''
   height: 0.875
   lateral: ''
@@ -1082,12 +1082,12 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: "\u026A"
   voice: ''
   vowel: vowel
 - backness: 0.5
-  classes: vowel   unrounded high      central
+  classes: vowel      unrounded high   central
   consonant: ''
   height: 1.0
   lateral: ''
@@ -1101,12 +1101,12 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: "\u0268"
   voice: ''
   vowel: vowel
 - backness: 1.0
-  classes: vowel   rounded high      back
+  classes: vowel      rounded high   back
   consonant: ''
   height: 1.0
   lateral: ''
@@ -1120,12 +1120,12 @@
   release: ''
   rounded: true
   rounding: rounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: u
   voice: ''
   vowel: vowel
 - backness: 0.75
-  classes: vowel near- near-   rounded high     back
+  classes: vowel near- near-     rounded high   back
   consonant: ''
   height: 0.875
   lateral: ''
@@ -1139,7 +1139,7 @@
   release: ''
   rounded: true
   rounding: rounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: "\u028A"
   voice: ''
   vowel: vowel
@@ -1158,7 +1158,7 @@
   release: ''
   rounded: false
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: e
   voice: ''
   vowel: ''
@@ -1177,7 +1177,7 @@
   release: ''
   rounded: false
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\u1EBD"
   voice: ''
   vowel: ''
@@ -1196,7 +1196,7 @@
   release: ''
   rounded: false
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\u025B"
   voice: ''
   vowel: ''
@@ -1215,7 +1215,7 @@
   release: ''
   rounded: true
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: o
   voice: ''
   vowel: ''
@@ -1234,7 +1234,7 @@
   release: ''
   rounded: true
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\u0254"
   voice: ''
   vowel: ''
@@ -1253,12 +1253,12 @@
   release: ''
   rounded: false
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\u028C"
   voice: ''
   vowel: ''
 - backness: 0.0
-  classes: vowel   unrounded low      front
+  classes: vowel      unrounded low   front
   consonant: ''
   height: 0.0
   lateral: ''
@@ -1272,12 +1272,12 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.48
+  sonority: 21.01
   symbol: a
   voice: ''
   vowel: vowel
 - backness: 0.0
-  classes: vowel near-   unrounded low     front
+  classes: vowel near-     unrounded low   front
   consonant: ''
   height: 0.125
   lateral: ''
@@ -1291,12 +1291,12 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.48
+  sonority: 21.01
   symbol: "\xE6"
   voice: ''
   vowel: vowel
 - backness: 0.0
-  classes: vowel   rounded high      front
+  classes: vowel      rounded high   front
   consonant: ''
   height: 1.0
   lateral: ''
@@ -1310,12 +1310,12 @@
   release: ''
   rounded: true
   rounding: rounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: y
   voice: ''
   vowel: vowel
 - backness: 0.25
-  classes: vowel near- near-   rounded high     front
+  classes: vowel near- near-     rounded high   front
   consonant: ''
   height: 0.875
   lateral: ''
@@ -1329,7 +1329,7 @@
   release: ''
   rounded: true
   rounding: rounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: "\u028F"
   voice: ''
   vowel: vowel
@@ -1348,7 +1348,7 @@
   release: ''
   rounded: true
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\xF8"
   voice: ''
   vowel: ''
@@ -1367,12 +1367,12 @@
   release: ''
   rounded: true
   rounding: ''
-  sonority: 2.24
+  sonority: 3.57
   symbol: "\u0153"
   voice: ''
   vowel: ''
 - backness: 0.5
-  classes: vowel   unrounded mid      central
+  classes: vowel      unrounded mid   central
   consonant: ''
   height: 0.5
   lateral: ''
@@ -1386,12 +1386,12 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.63
+  sonority: 21.02
   symbol: "\u0259"
   voice: ''
   vowel: vowel
 - backness: 1.0
-  classes: vowel   unrounded high      back
+  classes: vowel      unrounded high   back
   consonant: ''
   height: 1.0
   lateral: ''
@@ -1405,7 +1405,7 @@
   release: ''
   rounded: false
   rounding: unrounded
-  sonority: 6.78
+  sonority: 21.03
   symbol: "\u026F"
   voice: ''
   vowel: vowel
