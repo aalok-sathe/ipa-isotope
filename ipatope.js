@@ -3,26 +3,26 @@
 
 // init Isotope
 var $grid = $('.grid').isotope({
-    itemSelector: '.phoneme-item',
-    // layoutMode: 'fitRows',
+  itemSelector: '.phoneme-item',
+  // layoutMode: 'fitRows',
 
-    layoutMode: 'packery',
-    packery: {
-        gutter: 2
-    },
-    stamp: '.stamp',
+  layoutMode: 'packery',
+  packery: {
+    gutter: 2
+  },
+  stamp: '.stamp',
 
-    getSortData: {
-        name: '[name]',
-        symbol: '.symbol',
-        number: '.number parseInt',
-        sonority: '.sonority parseFloat',
-        category: '[data-category]',
-        weight: function(itemElem) {
-            var weight = $(itemElem).find('.weight').text();
-            return parseFloat(weight.replace(/[\(\)]/g, ''));
-        }
+  getSortData: {
+    name: '[name]',
+    symbol: '.symbol',
+    number: '.number parseInt',
+    sonority: '.sonority parseFloat',
+    category: '[data-category]',
+    weight: function(itemElem) {
+      var weight = $(itemElem).find('.weight').text();
+      return parseFloat(weight.replace(/[\(\)]/g, ''));
     }
+  }
 });
 
 // filter functions
@@ -74,27 +74,27 @@ $('.filters').on('click', '.button', function(event) {
 
 // change is-checked class on buttons
 $('.button-group').each(function(i, buttonGroup) {
-    var $buttonGroup = $(buttonGroup);
-    $buttonGroup.on('click', '.button', function(event) {
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        var $button = $(event.currentTarget);
-        $button.addClass('is-checked');
-    });
+  var $buttonGroup = $(buttonGroup);
+  $buttonGroup.on('click', '.button', function(event) {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    var $button = $(event.currentTarget);
+    $button.addClass('is-checked');
+  });
 });
 
 // bind sort button click
 $('.sorters').on('click', '.button', function() {
-    var sortByValue = $(this).attr('data-sort-by');
-    $grid.isotope({
-        sortBy: sortByValue
-    });
+  var sortByValue = $(this).attr('data-sort-by');
+  $grid.isotope({
+    sortBy: sortByValue
+  });
 });
 
 
 $('.ui-group').packery({
-    itemSelector: '.ui-group-item',
-    gutter: 1,
-    percentPosition: true
+  itemSelector: '.ui-group-item',
+  gutter: 1,
+  percentPosition: true
 })
 
 // collection of Draggabillies
@@ -102,9 +102,9 @@ var draggies = [];
 var isDrag = false;
 
 // make all grid-items draggable
-$grid.find('.phoneme-item').each( function( i, gridItem ) {
-  var draggie = new Draggabilly( gridItem );
-  draggies.push( draggie );
+$grid.find('.phoneme-item').each(function(i, gridItem) {
+  var draggie = new Draggabilly(gridItem);
+  draggies.push(draggie);
   // bind drag events to Packery
   // $grid.packery( 'bindDraggabillyEvents', draggie );
 });
@@ -119,16 +119,16 @@ let cartesian = (a, b, ...c) => b ? cartesian(f(a, b), ...c) : a;
 // flatten object by concatting values, making sure to apply demorgans laws ','
 function concatValues(obj) {
 
-    value = "";
-    for (var prop in obj) {
-        var parts = obj[prop].split(",");
-        var vals = value.split(",");
-        var newvals = cartesian(parts, vals);
+  value = "";
+  for (var prop in obj) {
+    var parts = obj[prop].split(",");
+    var vals = value.split(",");
+    var newvals = cartesian(parts, vals);
 
-        value = newvals.map(x => concatArr(x)).join(',');
-    }
+    value = newvals.map(x => concatArr(x)).join(',');
+  }
 
-    return value;
+  return value;
 }
 
 // flatten object by concatting values
