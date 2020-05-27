@@ -20,5 +20,5 @@
   text: approximant
 - func: .vowel
   text: vowel
-- func: sonGreaterThan10
-  text: sonority > 10
+- func: sonGreaterThan3
+  text: sonority > 3
