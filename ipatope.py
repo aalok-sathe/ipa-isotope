@@ -19,12 +19,23 @@ class Phoneme:
             setattr(self, key, value)
 
 
+class Filter:
+    def __init__(self, **kwargs):
+        for key, value in kwargs.items():
+            setattr(self, key, value)
+
+
 with (DATA / 'phonemes.yaml').open('r') as fp:
     phonemes = [Phoneme(**ph) for ph in yaml.load(fp, Loader=yaml.Loader)]
 
 data = dict(
     phonemes=phonemes,
 )
+
+with (DATA / 'filters.yaml').open('r') as fp:
+    filters = [Filter(**fil) for fil in yaml.load(fp, Loader=yaml.Loader)]
+
+data.update(dict(filters=filters))
 
 with Path('index.html').open('w') as out:
     out.write(template.render(**data))
