@@ -1,22 +1,22 @@
-- func: voiced
+- func: .voiced
   text: voiced
-- func: voiceless
+- func: .voiceless
   text: unvoiced
-- func: plosive
+- func: .plosive
   text: plosive
-- func: velar
+- func: .velar
   text: velar
-- func: nasal
+- func: .nasal
   text: nasal
-- func: trill
+- func: .trill
   text: trill
-- func: tap
+- func: .tap
   text: tap
-- func: flap
+- func: .flap
   text: flap
-- func: fricative
+- func: .fricative
   text: fricative
-- func: approximant
+- func: .approximant
   text: approximant
-- func: vowel
+- func: .vowel
   text: vowel
