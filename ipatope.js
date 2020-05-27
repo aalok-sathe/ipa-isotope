@@ -32,10 +32,10 @@ var filterFns = {
     var number = $(this).find('.number').text();
     return parseInt(number, 10) > 50;
   },
-  // show if sonority is greater than 10
-  sonGreaterThan10: function() {
+  // show if sonority is greater than 3
+  sonGreaterThan3: function() {
     var number = $(this).find('.sonority').text();
-    return parseFloat(number, 10) > 10;
+    return parseFloat(number, 10) > 3;
   },
   // show if name ends with -ium
   ium: function() {
