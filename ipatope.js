@@ -35,7 +35,7 @@ var filterFns = {
   // show if sonority is greater than 10
   sonGreaterThan10: function() {
     var number = $(this).find('.sonority').text();
-    return parseInt(number, 10) > 10;
+    return parseFloat(number, 10) > 10;
   },
   // show if name ends with -ium
   ium: function() {
