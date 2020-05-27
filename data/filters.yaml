@@ -2,6 +2,8 @@
   text: voiced
 - func: .voiceless
   text: voiceless
+- func: .stop
+  text: stop
 - func: .plosive
   text: plosive
 - func: .velar
@@ -16,6 +18,10 @@
   text: flap
 - func: .fricative
   text: fricative
+- func: .affricate
+  text: affricate
+- func: .sibilant
+  text: sibilant
 - func: .approximant
   text: approximant
 - func: .vowel
