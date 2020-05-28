@@ -38,9 +38,13 @@ data = dict(
 )
 
 template = jinja_env.get_template('phonemes.template.html')
-with Path('index.html').open('w') as out:
+with Path('public/index.html').open('w') as out:
     out.write(template.render(**data))
 
 code = jinja_env.get_template('ipatope.template.js')
-with Path('ipatope.js').open('w') as out:
+with Path('public/ipatope.js').open('w') as out:
     out.write(code.render(**data))
+
+css = jinja_env.get_template('ipatope.template.css')
+with Path('public/ipatope.css').open('w') as out:
+    out.write(css.render(**data))
