@@ -37,6 +37,7 @@ data = dict(
     sorters=sorters,
 )
 
+print('INFO', 'writing rendered files to public/')
 template = jinja_env.get_template('phonemes.template.html')
 with Path('public/index.html').open('w') as out:
     out.write(template.render(**data))
