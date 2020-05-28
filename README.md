@@ -4,4 +4,4 @@ Making a filterable [IPA chart](http://www.internationalphoneticassociation.org/
 
 ## IPAtope in Action
 
-[Start Screen](https://i.imgur.com/0GdhR3j.png)
+![Start Screen](https://i.imgur.com/0GdhR3j.png)
