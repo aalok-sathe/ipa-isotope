@@ -4,4 +4,6 @@ Making a filterable [IPA chart](http://www.internationalphoneticassociation.org/
 
 ## IPAtope in Action
 
-<img src="media/start_screen.jpg" alt="start screen">
+![Start screen](media/start_screen.jpg)
+
+<!-- <img src="media/start_screen.jpg" alt="start screen"> -->
