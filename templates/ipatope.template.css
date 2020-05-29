@@ -232,3 +232,30 @@ body {
 .phoneme-item.vowel {
     background: hsl(200.7, 44.5%, 73.1%);
 }
+
+
+
+/* footer */
+.footer {
+    font-size: .75em;
+    padding: 5px 30px;
+    border-top: 1px solid #ddd;
+    text-align: right
+}
+
+.footer p {
+    margin: 0 0 0 1em;
+    display: inline-block
+}
+
+.footer p:last-child {
+    margin-right: 30px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300
+}
