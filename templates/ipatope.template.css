@@ -149,10 +149,6 @@ body {
     opacity: .3;
     clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 36%, 100% 35%, 100% 64%, 0 65%, 0 100%, 100% 100%, 100% 0%);
 }
-.handle:hover, .play>.image:hover {
-    background: #e1dffc;
-    outline: 3px dashed #444;
-}
 
 .phoneme-item > .play {
     position: absolute;
@@ -164,6 +160,12 @@ body {
     opacity: .3;
     clip-path: polygon(0 0, 0% 100%, 78% 51%);
 }
+.handle:hover, .play:hover {
+    background: #e1dffc;
+    outline: 3px dashed #444;
+}
+
+
 
 
 /* highlight drag & drop */
