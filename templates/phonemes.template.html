@@ -1,4 +1,4 @@
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
 <html>
 
@@ -9,6 +9,7 @@
 
     <!-- CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://rawcdn.githack.com/rstacruz/jquery.transit/1c978a0aaa1eac88be9f9508c4f5913b30d43a87/jquery.transit.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script src="https://rawcdn.githack.com/metafizzy/isotope-packery/0b8522ea7d10e39d084d028da8a81c6f126d6bce/packery-mode.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -16,15 +17,25 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://rawcdn.githack.com/itinerarium/phoneme-synthesis/499583531c5013559ebb64e1e1eae928bd2f6528/mespeak.js"></script>
 
 </head>
+<link rel="icon"
+      type="image/png"
+      href="favicon.ico">
 
 <body>
-    <h1 class="title">IPAtope</h1>
+    <div id="particles-js"></div>
 
-    <h4>Filter</h4>
+    <div class="ui-group">
+        <h1 class="ui-group-item title">IPAtope</h1>
+    </div>
 
-    <div class="filters">
+    <div class="ui-group">
+        <h4 class="ui-group-item">Filter</h4>
+    </div>
+
+    <div class="filters controls">
 
         {% for group, filters in filtergroups.items() %}
         <div class="ui-group">
@@ -40,9 +51,11 @@
 
     </div>
 
-    <h4>Sort</h4>
+    <div class="ui-group">
+        <h4 class="ui-group-item">Sort</h4>
+    </div>
 
-    <div class="sorters">
+    <div class="sorters controls">
         <div class="ui-group">
             <div class="ui-group-item button-group-label" style="float: left;"><label style="margin-left: 10px; margin-right: 10px;"> sort by </label></div>
             <div class="button-group" data-filter-group="{{ group }}">
@@ -54,15 +67,14 @@
         </div>
     </div>
 
-    <!-- <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
-        <button class="button" data-sort-by="name">name</button>
-        <button class="button" data-sort-by="symbol">symbol</button>
-        <button class="button" data-sort-by="sonority">sonority</button>
-        <button class="button" data-sort-by="category">category</button>
-    </div> -->
+    <div class="ui-group">
+        <h4 class="ui-group-item">Controls</h4>
+    </div>
 
-    <h4>Controls</h4>
     <div class="ui-group-bootstrap">
+        <!-- <div class="ui-group">
+            <div class="ui-group-item button-group-label" style="float: left;"><label style="margin-left: 10px; margin-right: 10px;"> control </label></div>
+        </div> -->
         <div class="controls btn-toolbar" style="margin: 5px;" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group mr-2" role="group" aria-label="">
                 <button class="ui-group-item button btn btn-secondary btn-sm" type="button" name="button" onclick="$grid.isotope({sortBy: 'original-order', filter: '*'});">
@@ -70,32 +82,59 @@
                 </button>
             </div>
             <div class="btn-group mr-2" role="group" aria-label="">
-                <button class="ui-group-item btn btn-secondary btn-sm" type="button" name="button" onclick="$grid.isotope('shuffle');">
+                <button class="ui-group-bootstrap-item btn btn-secondary btn-sm" type="button" name="button" onclick="$grid.isotope('shuffle');">
                     shuffle
                 </button>
-                <button class="ui-group-item btn btn-secondary btn-sm" type="button" name="button" onclick="$( '.phoneme-item' ).each(function( index ) {
-                                $(this).css({
+                <button class="ui-group-bootstrap-item btn btn-secondary btn-sm" type="button" name="button" onclick="$( '.phoneme-item' ).each(function( index ) {
+                                $(this).transition({
+                                    top : Math.random() * (800 - $(this).height()),
                                     left : Math.random() * ($(window).width() - $(this).width() - 100),
-                                    top : Math.random() * (500 - $(this).height()) - 200,
-                                });
-                              });">
+                                }, 300, 'ease')
+                            });">
                     scramble
                 </button>
             </div>
             <div class="btn-group mr-2" role="group" aria-label="">
-                {% for attrtohide in 'name symbol sonority'.split() %}
-                <button class="ui-group-item btn btn-secondary btn-sm" type="button" name="button"
-                        onclick="$('.phoneme-item>.{{attrtohide}}').toggleClass('hidden');">
-                    toggle {{ attrtohide }}
-                </button>
-                {% endfor %}
+
+                <div class="ui-group-bootstrap-item dropdown">
+                    <a class="btn btn-sm btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                        toggle attributes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        {% for attrtohide in 'name symbol sonority'.split() %}
+                        <button class="dropdown-item btn btn-secondary btn-sm" type="button" name="button" onclick="$('.phoneme-item>.{{attrtohide}}').toggleClass('hidden');">
+                            {{ attrtohide }}
+                        </button>
+                        {% endfor %}
+                    </div>
+                </div>
+
             </div>
+            <div class="btn-group mr-2" role="group" aria-label="">
+                <div class="ui-group-bootstrap-item dropdown">
+                    <a class="btn btn-sm btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                        theme
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <button class="dropdown-item button btn btn-secondary btn-sm" type="button" name="button" onclick="$('.glass').css('background', '');
+                                         $('.phoneme-item').removeClass('glass');">
+                            pastel
+                        </button>
+                        <button class="dropdown-item button btn btn-secondary btn-sm" type="button" name="button" onclick="$('.phoneme-item').addClass('glass');
+                                $('.glass').css('background', 'hsla(244,30%,80%,0.1)');">
+                            glass
+                        </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-    <br>
-    <h5 class="tip">Try dragging them around!</h5>
 
-    <div id="particles-js"></div>
+    <div class="ui-group">
+        <h5 class="ui-group-item tip">Try dragging them around using the handle in the corner! </h5>
+    </div>
+
     <div class="grid">
         {% for phoneme in phonemes %}
         {% include "phoneme.template.html" with context %}
@@ -105,14 +144,15 @@
 
 </body>
 
-<style>
-#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}
-</style>
-<footer id="footer">
-<p>&copy; 2020 <a href="https://github.com/ipatope/" target="_blank"> <cite>
-    <a href="https://github.com/aalok-sathe" target="_blank">aalok-sathe</a>
-    and
-    <a href="https://github.com/shinjinighosh" target="_blank">shinjinighosh</a>
+
+<footer class="footer">
+    <p><a href="https://github.com/ipatope/" target="_blank"> IPAtope </a></p>
+    <p>&copy; 2020
+        <cite>
+            <a href="https://github.com/aalok-sathe" target="_blank">aalok-sathe</a>
+            and
+            <a href="https://github.com/shinjinighosh" target="_blank">shinjinighosh</a>
+        </cite>
 </footer>
 
 
@@ -120,5 +160,6 @@
 <link href="ipatope.css" rel="stylesheet" type="text/css">
 <script src="ipatope.js"></script>
 <script src="particles.js"></script>
+<script src="mespeakfn.js"></script>
 
 </html>

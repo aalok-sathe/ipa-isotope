@@ -96,14 +96,23 @@ $('.sorters').on('click', '.button', function() {
             $('.button[data-filter~="{{ filter.fn }}"]').hover(function(e) {
                 $('.phoneme-item[class~="{{ target[1:] }}"]').css('background', '#d1b2dc');
                 $('.phoneme-item[class~="{{ target[1:] }}"]').css('outline', '3px dashed #723c86');
+                $('.phoneme-item[class~="{{ target[1:] }}"]').css('text-shadow', '#eee 0px 0px 2px');
             }, function(e) {
-                $('.phoneme-item[class~="{{ target[1:] }}"]').css('background', '');
+                $('.phoneme-item[class~="{{ target[1:] }}"]').css('background', 'hsla(244,30%,80%,0.1)');
+                $('.phoneme-item[class~="{{ target[1:] }}"]:not(.glass)').css('background', '');
                 $('.phoneme-item[class~="{{ target[1:] }}"]').css('outline', '');
+                $('.phoneme-item[class~="{{ target[1:] }}"]').css('text-shadow', '');
             });
         {% endfor %}
     {% endfor %}
 {% endfor %}
 
+
+$('.play').on('click', function(e) {
+    var symb = $(this).parent('.phoneme-item').find('.symbol').text();
+	console.log('attempting to play', symb);
+    process(symb);
+})
 
 
 // packery --------------------
@@ -112,7 +121,8 @@ $('.ui-group').packery({
   itemSelector: '.ui-group-item',
   gutter: 1,
   percentPosition: true
-})
+});
+
 
 // collection of Draggabillies
 var draggies = [];
@@ -120,7 +130,7 @@ var isDrag = false;
 
 // make all grid-items draggable
 $grid.find('.phoneme-item').each(function(i, gridItem) {
-  var draggie = new Draggabilly(gridItem);
+  var draggie = new Draggabilly(gridItem, {handle: '.handle'});
   draggies.push(draggie);
   // bind drag events to Packery
   // $grid.packery( 'bindDraggabillyEvents', draggie );
