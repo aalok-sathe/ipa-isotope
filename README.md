@@ -1,6 +1,6 @@
 # ipa-isotope
 
-Making a filterable [IPA chart](http://www.internationalphoneticassociation.org/content/ipa-chart) using [Isotope](https://isotope.metafizzy.co/).
+Making a filterable [IPA chart](http://www.internationalphoneticassociation.org/content/ipa-chart) using [Isotope](https://isotope.metafizzy.co/). Deployed at [ipatope.github.io](https://ipatope.github.io/) with source code at [this repo](https://github.com/IPAtope/ipatope.github.io).
 
 ## IPAtope in action!
 
